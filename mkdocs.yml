@@ -2,6 +2,29 @@ site_name: Scruffy Wiki
 
 nav:
   - Home: index.md
-  - About: about.md
+
+  - Bandar Esok: 
+    - Snippets: 
+      - 年兽's influence: bandarEsokLore/snippets/年兽-influence.md
+      - Restoran Laut Brainstorm: bandarEsokLore/snippets/restoran-laut-brainstorm.md
+
+  - Solo Journalling Games: 
+
+    - Caveat Emptor:
+      - Intro: 
+        - The Game: caveatEmptor/Caveat Emptor.md
+        - Notes on the Boss: caveatEmptor/Notes on the Boss (Mephistopheles).md
+      - Game#1: caveatEmptor/game#1/Day#1.md
+
+    - Ex Novo:
+      - Game#1: 
+        - Bandar Esok (ver.1): exNovo/game#1/bandar-esok-ver-1.md
+        - Events: exNovo/game#1/Events.md
+
+  - Personal Webdev Notes:
+    - Using MkDocs: webdevNotes/using-mkdocs.md
+
 
 theme: material
+# features:
+#     - navigation.instant (needs url)
