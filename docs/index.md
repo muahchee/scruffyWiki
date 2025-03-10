@@ -2,7 +2,7 @@
 
 **Muahchee's personal wiki**
 
-![Nora Reading](images/noraReading.gif)
+![Nora Reading](media/noraReading.gif)
 
 I usually do most of my note-taking physically on loose sheets of cream-coloured paper. 
 
@@ -18,4 +18,4 @@ This wiki currently includes -
 - Solo Journalling Game Logs
 - Personal Webdev Notes
 
-![Whisper dressed as a butler](images/whisper-butler.jpg)
+![Whisper dressed as a butler](media/whisper-butler.jpg)
