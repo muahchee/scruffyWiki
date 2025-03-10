@@ -31,7 +31,7 @@ deactivate
 
 0. Pull notes repo from Github
 1. Create or edit on QOwnNotes, commit and push to github repo
-2. Paste files into wiki repo.
+2. Paste notes folder into wiki repo.
 3. Open Python Virtual Environment.
 4. Edit yml file (directory) in VSCode, use 'mkdocs serve' to check.
 5. Commit and push to github repo
