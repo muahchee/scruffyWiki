@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Welcome to Scruffy Wiki!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**Muahchee's personal wiki**
 
-## Commands
+![Nora Reading](images/noraReading.gif)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+I usually do most of my note-taking physically on loose sheets of cream-coloured paper. 
 
-## Project layout
+Nothing beats the feeling of expressing my thoughts in ink!
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+However, I always have a difficult time whenever I'm trying to find a particular piece of information I half-remmember writing down.
+
+I'll be using this wiki to digitise my notes!
+
+This wiki currently includes - 
+
+- Bandar Esok Lore
+- Solo Journalling Game Logs
+- Personal Webdev Notes
+
+![Whisper dressed as a butler](images/whisper-butler.jpg)

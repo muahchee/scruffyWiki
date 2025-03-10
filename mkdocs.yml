@@ -22,6 +22,7 @@ nav:
         - Events: exNovo/game#1/Events.md
 
   - Personal Webdev Notes:
+    - The Odin Project: webdevNotes/the-odin-project.md
     - Using MkDocs: webdevNotes/using-mkdocs.md
 
 

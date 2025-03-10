@@ -27,3 +27,16 @@ source ~/py_envs/bin/activate
 deactivate
 ```
 
+## Workflow
+
+0. Pull notes repo from Github
+1. Create or edit on QOwnNotes, commit and push to github repo
+2. Paste files into wiki repo.
+3. Open Python Virtual Environment.
+4. Edit yml file (directory) in VSCode, use 'mkdocs serve' to check.
+5. Commit and push to github repo
+6. Use 'mkdocs build' to make the HTML
+7. Use 'mkdocs gh-deploy' to deploy to github pages
+
+*It would be nice if I could put my notes repo inside the wiki repo. But that sounds like a bad idea.
+
