@@ -1,18 +1,10 @@
-# Welcome to Scruffy Wiki!
-
-**Muahchee's personal wiki**
+# Welcome to my hypertext garden!
 
 ![Nora Reading](media/noraReading.gif)
 
-I usually do most of my note-taking physically on loose sheets of cream-coloured paper. 
+I plant my half-baked ideas here and let them grow. 
 
-Nothing beats the feeling of expressing my thoughts in ink!
-
-However, I always have a difficult time whenever I'm trying to find a particular piece of information I half-remmember writing down.
-
-I'll be using this wiki to digitise my notes!
-
-This wiki currently includes - 
+This [garden](notes/webdevNotes/on-digital-gardens.md) currently includes - 
 
 - Bandar Esok Lore
 - Solo Journalling Game Logs

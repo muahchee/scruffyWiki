@@ -5,25 +5,26 @@ nav:
 
   - Bandar Esok: 
     - Snippets: 
-      - 年兽's influence: notes/bandarEsokLore/snippets/年兽-influence.md
-      - Restoran Laut Brainstorm: notes/bandarEsokLore/snippets/restoran-laut-brainstorm.md
+      - notes/bandarEsokLore/snippets/年兽-influence.md
+      - notes/bandarEsokLore/snippets/restoran-laut-brainstorm.md
 
   - Solo Journalling Games: 
 
     - Caveat Emptor:
       - Intro: 
-        - The Game: notes/caveatEmptor/Caveat Emptor.md
-        - Notes on the Boss: notes/caveatEmptor/Notes on the Boss (Mephistopheles).md
-      - Game#1: notes/caveatEmptor/game#1/Day#1.md
+        - notes/caveatEmptor/Caveat Emptor.md
+        - notes/caveatEmptor/Notes on the Boss (Mephistopheles).md
+      - notes/caveatEmptor/game#1/Day#1.md
 
     - Ex Novo:
       - Game#1: 
-        - Bandar Esok (ver.1): notes/exNovo/game#1/bandar-esok-ver-1.md
-        - Events: notes/exNovo/game#1/Events.md
+        - notes/exNovo/game#1/bandar-esok-ver-1.md
+        - notes/exNovo/game#1/Events.md
 
   - Personal Webdev Notes:
-    - The Odin Project: notes/webdevNotes/the-odin-project.md
-    - Using MkDocs: notes/webdevNotes/using-mkdocs.md
+    - notes/webdevNotes/the-odin-project.md
+    - notes/webdevNotes/using-mkdocs.md
+    - notes/webdevNotes/on-digital-gardens.md
 
 
 theme: material

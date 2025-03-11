@@ -26,6 +26,7 @@ source ~/py_envs/bin/activate
 ```
 deactivate
 ```
+---
 
 ## Workflow
 
@@ -36,4 +37,18 @@ deactivate
 4. Commit and push to github repo
 5. Use 'mkdocs build' to make the HTML
 6. Use 'mkdocs gh-deploy' to deploy to github pages
+
+---
+
+## Interesting plugins/stuff to test out
+
+- [Icons and Emojis for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/) - honestly, i should take a better look at the documentation when i have the time. There's alot of exciting stuff here!
+
+- [mkdocs-literate-nav](https://github.com/oprypin/mkdocs-literate-nav) - can put nav in separate markdown file, also enables wildcard selector for files. It would be great if I could set it up so that I don't need to manually add each note into the nav. 
+
+    - MkDocs uses the highest level heading as the inferred title. Yay! I don't need to write it in the yml anymore!
+    - check how pages are ordered without me specifying
+
+- [mkdocs-section-index](https://github.com/oprypin/mkdocs-section-index) - allow clickable sections that lead to an index page
+
 
