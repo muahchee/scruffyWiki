@@ -28,11 +28,11 @@
 
 ## Progress (My Web Developer Journey!)
 
-6/11/24 - Started Foundations
+06/11/24 - Started Foundations
 
 13/12/24 - Finished Foundations!!!
 
-2/2/24 - Finished Intermediate HTML and CSS
+02/02/24 - Finished Intermediate HTML and CSS
 
 
 
