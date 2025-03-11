@@ -31,6 +31,9 @@ nav:
 extra_css:
   - stylesheets/extra.css
   
-theme: material
+theme: 
+  name: material
+  favicon: media/gaston-head.png
+
 # features:
 #     - navigation.instant (needs url)
