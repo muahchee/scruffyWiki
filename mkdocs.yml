@@ -26,8 +26,11 @@ nav:
     - notes/webdevNotes/using-mkdocs.md
     - notes/webdevNotes/on-digital-gardens.md
     - notes/webdevNotes/sortableJS.md
+    - notes/webdevNotes/oop.md
 
-
+extra_css:
+  - stylesheets/extra.css
+  
 theme: material
 # features:
 #     - navigation.instant (needs url)
