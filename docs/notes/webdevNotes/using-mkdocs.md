@@ -37,5 +37,3 @@ deactivate
 5. Use 'mkdocs build' to make the HTML
 6. Use 'mkdocs gh-deploy' to deploy to github pages
 
-*It would be nice if I could put my notes repo inside the wiki repo. But that sounds like a bad idea.
-
