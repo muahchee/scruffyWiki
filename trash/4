@@ -1,0 +1,8 @@
+[OOP](../../webdevNotes/oop.md) in PICO-8
+========================
+
+[Object Oriented Programming in PICO-8 video by Kevin Makes Games](https://www.youtube.com/watch?v=X9qKODb-wXg&list=PLOnz_5SBywID2Gp5pqUr1_pvWI9ajOi7z)
+
+They also made a [github repo](https://github.com/kevinthompson/object-oriented-pico-8) for the video example.
+
+The lua progamming language is actually pretty similar to javascript. I could follow the login pretty easily. I think i could apply this class inheritance structure to my js projects!

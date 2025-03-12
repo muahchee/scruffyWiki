@@ -11,7 +11,8 @@ Some tips from the book [Practical Object Oriented Design in Ruby (POODR) by San
 - Public methods should read like a description of responsibilities. They should:
 
     - Be explicitly identified as public
-    - Be more about "what" than "how"
+    - Be more about "what" than "how". Blind trust.
+        > "I know what I want and I trust you to do your part."
     - Have names that, insofar as you can anticipate, will not change.
     - Not have order dependent parameters
 
@@ -21,9 +22,6 @@ Some tips from the book [Practical Object Oriented Design in Ruby (POODR) by San
 
 - Use message based design rather than class based.
 > "I need to send this message (ask for something), who should respond to it?"
-
--  Say "what" rather than "how". Blind trust.
-> "I know what I want and I trust you to do your part."
 
 ---
 
@@ -36,3 +34,9 @@ I think design patterns might be useful for planning out dependencies.
 - [Learning JavaScript Design Patterns by Addy Osmani and Lydia Hallie](https://www.patterns.dev/) -  one of the additional reading from TOP
 
 - [Design Patterns from OODesign](https://www.oodesign.com/)
+
+--
+
+## OOP examples
+
+- [Kevin Makes Games PICO-8 star field example](../gamedevNotes/pico-8/oop-in-pico8.md#Star%20field%20example)
