@@ -23,6 +23,8 @@
 
 [Restaurant Page](https://muahchee.github.io/restaurant-page/) - My introduction to webpack and OOP!
 
+[Dandori Organiser](https://muahchee.github.io/dandori-organiser/) - A mini-version of the to-do list project.
+
 
 ---
 
