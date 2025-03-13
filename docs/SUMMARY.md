@@ -1,0 +1,47 @@
+* [Home](index.md)
+
+* Bandar Esok
+  * Snippets
+    * notes/bandarEsokLore/snippets/年兽-influence.md
+
+<!-- * Solo Journalling Games 
+
+  * Caveat Emptor
+    * Intro 
+      * notes/caveatEmptor/Caveat Emptor.md
+      * notes/caveatEmptor/Notes on the Boss (Mephistopheles).md
+    -x Novo
+    * Game#1 
+      * notes/exNovo/game#1/bandar-esok-ver-1.md
+      * notes/exNovo/game#1/Events.md
+
+* Webdev Notes
+  * notes/webdevNotes/cool-websites.md
+  * notes/webdevNotes/the-odin-project.md
+  * notes/webdevNotes/using-mkdocs.md
+  * notes/webdevNotes/on-digital-gardens.md
+  * notes/webdevNotes/sortableJS.md
+  * notes/webdevNotes/oop.md
+
+* Gamedev Notes
+  * PICO-8
+    * notes/gamedevNotes/pico-8/oop-in-pico8.md
+    * notes/gamedevNotes/pico-8/resources.md notes/caveatEmptor/game#1.md
+
+  * Ex Novo
+    * Game#1 
+      * notes/exNovo/game#1/bandar-esok-ver-1.md
+      * notes/exNovo/game#1/Events.md
+
+* Webdev Notes
+  * notes/webdevNotes/cool-websites.md
+  * notes/webdevNotes/the-odin-project.md
+  * notes/webdevNotes/using-mkdocs.md
+  * notes/webdevNotes/on-digital-gardens.md
+  * notes/webdevNotes/sortableJS.md
+  * notes/webdevNotes/oop.md
+
+* Gamedev Notes
+  * PICO-8
+    * notes/gamedevNotes/pico-8/oop-in-pico8.md
+    * notes/gamedevNotes/pico-8/resources.md -->
