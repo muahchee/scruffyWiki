@@ -1,4 +1,4 @@
-年兽's influence
+:red_envelope: 年兽's influence
 ========================
 
 》 Cause Bandar Esok to perpetually celebrate CNY.

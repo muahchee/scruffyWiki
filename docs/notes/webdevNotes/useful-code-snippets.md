@@ -1,4 +1,4 @@
-Useful code snippets
+:material-robot-happy-outline: Useful code snippets
 ========================
 
 ## Remove all child divs

@@ -1,4 +1,4 @@
-Ex Novo
+:material-map-outline:  Ex Novo
 ========================
 
 ## [A city making journaling game](https://sharkbombs.itch.io/ex-novo)

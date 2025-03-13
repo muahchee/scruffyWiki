@@ -1,4 +1,4 @@
-Notes on the Boss (Mephistopheles)
+:material-bottle-tonic-skull-outline: Notes on the Boss (Mephistopheles)
 ========================
 
 Handcrafts most of the items in the shop, collects them back when they have been discarded. Is currently away on a collection.

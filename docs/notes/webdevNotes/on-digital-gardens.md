@@ -1,4 +1,4 @@
-On digital gardens
+:material-flower-tulip-outline: On digital gardens
 ========================
 
 Whenever i have an idea for an essay or project, I always put it off because of one obligation or another. As the days go by, the idea fade bit by bit from neglect, eventually disappearing completely.

@@ -1,4 +1,4 @@
-Resources
+:material-search-web: Resources
 ========================
 Tyler Neylon stuff
 

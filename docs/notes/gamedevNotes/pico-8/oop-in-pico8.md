@@ -1,4 +1,4 @@
-[OOP](../../webdevNotes/oop.md) in PICO-8
+:material-code-block-braces: [OOP](../../webdevNotes/oop.md) in PICO-8
 ========================
 
 ## Star field example

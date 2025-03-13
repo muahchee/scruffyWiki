@@ -1,4 +1,4 @@
-[The Odin Project](https://www.theodinproject.com/)
+:material-spear: [The Odin Project](https://www.theodinproject.com/)
 ========================
 
 ## My little projects

@@ -1,4 +1,4 @@
-Git and GitHub
+:octicons-git-branch-16: Git and GitHub
 ========================
 
 ## Creating new branch

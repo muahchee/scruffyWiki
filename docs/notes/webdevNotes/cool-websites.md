@@ -1,4 +1,4 @@
-Cool Websites
+:material-web-plus: Cool Websites
 ========================
 [https://petrapixel.neocities.org](https://petrapixel.neocities.org) - super cute with a lot of webmastery stuff
 

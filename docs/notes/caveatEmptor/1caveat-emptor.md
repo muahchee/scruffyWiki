@@ -1,4 +1,4 @@
-Caveat Emptor
+:material-bottle-tonic-skull-outline: Caveat Emptor
 ========================
 
 ## [A journalling game.](https://exeuntpress.itch.io/caveat-emptor)
