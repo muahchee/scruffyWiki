@@ -1,8 +1,32 @@
+@font-face {
+  font-family: "basiic";
+  src: url(../fonts/basiic.ttf);
+}
+
+@font-face {
+  font-family: "heartfont";
+  src: url(../fonts/heartfont.ttf);
+}
+
+@font-face {
+  font-family: "yoster";
+  src: url(../fonts/yoster.ttf);
+}
+
 :root, [data-md-color-scheme="default"]{
 
   --md-default-bg-color: #fdf8ea;
   
 }
+
+:root {
+
+  --md-text-font: "basiic", Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+  --md-code-font: Roboto Mono, monospace; 
+
+}
+
 
 .md-typeset ul{
   list-style-type: circle;
@@ -10,4 +34,20 @@
 
 .md-typeset ol li, .md-typeset ul li{
   margin-bottom: 20px;
+}
+
+.md-nav {
+  font-size: .8rem;
+  line-height: 1.6;
+}
+
+.md-typeset {
+  font-size: .9rem
+}
+
+.bold {
+
+  font-weight: bold;
+  color: var(--md-accent-fg-color)
+
 }

@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../exNovo/Game%231/bandar-esok-ver-1/">
+        <link rel="prev" href="../git/">
       
       
-        <link rel="next" href="../git/">
+        <link rel="next" href="../on-digital-gardens/">
       
       
       <link rel="icon" href="../../../media/gaston-head.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Cool Websites - Scruffy Wiki</title>
+        <title>Javascript notes - Scruffy Wiki</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cool-websites" class="md-skip">
+        <a href="#javascript-notes" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cool Websites
+              Javascript notes
             
           </span>
         </div>
@@ -787,19 +787,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../cool-websites/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -809,7 +800,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -841,10 +831,31 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../js-notes/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Javascript notes
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -854,6 +865,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creating-unique-values-with-symbol" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating unique values with Symbol()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#closures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Closures
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1183,6 +1232,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creating-unique-values-with-symbol" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating unique values with Symbol()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#closures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Closures
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1197,9 +1272,63 @@
 
 
 
-<h1 id="cool-websites"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.5 12c0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2 0 .37-.03.73-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10C6.47 2 2 6.5 2 12s4.5 10 10 10c.59 0 1.16-.06 1.72-.16A5.9 5.9 0 0 1 13 19c0-.29.03-.57.07-.85-.32.63-.67 1.24-1.07 1.81-.83-1.2-1.5-2.53-1.91-3.96h3.72a5.95 5.95 0 0 1 2.59-2.4c.06-.53.1-1.06.1-1.6M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2zm.82 2H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m6.34 6H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2m.25-9.56c1.84.63 3.37 1.9 4.33 3.56h-2.95a15.7 15.7 0 0 0-1.38-3.56M23 18v2h-3v3h-2v-3h-3v-2h3v-3h2v3z"/></svg></span> Cool Websites</h1>
-<p><a href="https://petrapixel.neocities.org">https://petrapixel.neocities.org</a> - super cute with a lot of webmastery stuff</p>
-<p><a href="https://tylerneylon.com">https://tylerneylon.com</a> - very minimalist. Has some good <a href="../../gamedevNotes/pico-8/resources/#Resources">lua resources</a>!</p>
+<h1 id="javascript-notes"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3h18v18H3zm4.73 15.04c.4.85 1.19 1.55 2.54 1.55 1.5 0 2.53-.8 2.53-2.55v-5.78h-1.7V17c0 .86-.35 1.08-.9 1.08-.58 0-.82-.4-1.09-.87zm5.98-.18c.5.98 1.51 1.73 3.09 1.73 1.6 0 2.8-.83 2.8-2.36 0-1.41-.81-2.04-2.25-2.66l-.42-.18c-.73-.31-1.04-.52-1.04-1.02 0-.41.31-.73.81-.73.48 0 .8.21 1.09.73l1.31-.87c-.55-.96-1.33-1.33-2.4-1.33-1.51 0-2.48.96-2.48 2.23 0 1.38.81 2.03 2.03 2.55l.42.18c.78.34 1.24.55 1.24 1.13 0 .48-.45.83-1.15.83-.83 0-1.31-.43-1.67-1.03z"/></svg></span> Javascript notes</h1>
+<h2 id="creating-unique-values-with-symbol">Creating unique values with Symbol()</h2>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol">MDN page</a></p>
+<p>A built-in object that returns a Symbol value that guarantees to be unique. Symbols are primitives (like strings or boolean).</p>
+<blockquote>
+<p>Symbols are often used to <strong>add unique property keys</strong> to an object that won't collide with keys any other code might add to the object, and which are hidden from any mechanisms other code will typically use to access the object.</p>
+</blockquote>
+<p>This could be useful for the to-do list project! I could generate unique ids with this! </p>
+<hr />
+<h2 id="closures">Closures</h2>
+<p><a href="https://www.theodinproject.com/lessons/node-path-javascript-factory-functions-and-the-module-pattern#closures-arent-scary">The Odin Project lesson</a></p>
+<p><a href="https://www.youtube.com/watch?v=80O6L2Ez3GM">Javascript closure video by Bro Code</a></p>
+<blockquote>
+<p>Closures are functions with preserved data. </p>
+<p>Gives you access to an outer function's scope from an inner function.</p>
+<p>State of variables in the outer scope is "saved"</p>
+<p>Variables in outer scope are considered "private" (i.e cannot be access from global scope)</p>
+</blockquote>
+<pre><code>//--outer function--
+let score = (function(){
+
+    let points = 0;
+
+    //--inner function--
+    return function(){
+
+        points += 1;
+        return points;
+
+    }
+
+})(); //iife
+</code></pre>
+<p><a href="https://wesbos.com/javascript/03-the-tricky-bits/closures">Wes Bos' article on closures</a></p>
+<p>You can also use closures to make "two layer function calls" (idk what to call it)</p>
+<pre><code>function createGreeting(greeting = &quot;&quot;) {
+
+  const myGreet = greeting.toUpperCase();
+
+  return function(name) {
+    return `${myGreet} ${name}`;
+  };
+
+}
+</code></pre>
+<p>First, invoke outer function and store the inner function in the variable <code>sayHello</code>.</p>
+<p><code>sayHello</code> has preserved the outer function's <code>myGreet</code> (which has the value of "HELLO")</p>
+<p>Then, invoke the inner function that was stored in <code>sayHello</code>in the <code>console.log</code></p>
+<pre><code>const sayHello = createGreeting('hello');
+
+console.log(sayHello('wes')); //HELLO wes
+
+const sayBye = createGreeting('bye');
+
+console.log(sayBye('xuan')); //BYE xuan
+</code></pre>
+<hr />
 
 
 
