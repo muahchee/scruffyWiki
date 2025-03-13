@@ -26,11 +26,14 @@ extra_css:
   - stylesheets/extra.css
   
 theme: 
+  logo: media/notebook-heart.svg
   name: material
   favicon: media/gaston-head.png
   palette:
     primary: teal
     accent: deep orange
+  features:
+    - navigation.indexes 
 
 markdown_extensions:
   - attr_list
