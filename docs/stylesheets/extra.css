@@ -44,3 +44,10 @@
 .md-typeset {
   font-size: .9rem
 }
+
+.bold {
+
+  font-weight: bold;
+  color: var(--md-accent-fg-color)
+
+}
