@@ -42,7 +42,7 @@ deactivate
 ---
 ## Using icons and emojis
 
-### Path to find the .icons file - 
+### Path to find the .icons file
 
 /home/user-name/py_envs/lib/python3.12/site-packages/material/templates/.icons
 
@@ -74,7 +74,7 @@ To change it to white, open the svg file in vscode and add -
 fill="white" stroke="none"
 
 ```
-...to the <svg> element.
+...to the svg element.
 
 ---
 
@@ -86,6 +86,12 @@ theme:
   features:
     - navigation.indexes
 ```
+
+---
+
+## adding class to markdown
+
+`{ class-name }`
 
 ---
 

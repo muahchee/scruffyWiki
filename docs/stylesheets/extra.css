@@ -51,3 +51,28 @@
   color: var(--md-accent-fg-color)
 
 }
+
+.underline {
+
+  text-decoration: underline;
+
+}
+
+/* @keyframes heart {
+  0%, 40%, 80%, 100% {
+    transform: scale(1);
+  }
+  20%, 60% {
+    transform: scale(1.15);
+  }
+} */
+
+.profile-img {
+
+  float: right;
+  width: 350px;
+  margin: 0 50px 50px 0;
+
+  /* animation: heart 2000ms infinite; */
+
+}
