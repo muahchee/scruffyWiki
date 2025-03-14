@@ -96,6 +96,6 @@ The guild building is used as the town centre.
 
 10. Ground becomes unstable, yet again ( western district destroyed )
 
-11. A revolution suceeds ( The Scholars + The Miner's Guild = City Council [factions merge] )
+11. A revolution succeeds ( The Scholars + The Miner's Guild = City Council [factions merge] )
 
 12. The Scholars discovered "eternity", trapped the beast in the city.
