@@ -15,3 +15,8 @@ Tyler Neylon stuff
 ---
 
 [PICO 8 Tips | Using External Tools by Kevin Makes Games](https://www.youtube.com/watch?v=srPKBhzgZhc) [ video ] - As much as I love the pico8 interface, the code editor gets claustrophobic rather quickly. I like having alot of spaces! It'll be good if I could code in vscode
+
+---
+
+[Lua Short Reference](http://lua-users.org/files/wiki_insecure/users/thomasl/luarefv51.pdf)
+
