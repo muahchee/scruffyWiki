@@ -12,7 +12,7 @@ Some tips from the book [Practical Object Oriented Design in Ruby (POODR) by San
 
     - Be explicitly identified as public
     - Be more about "what" than "how". Blind trust.
-        > "I know what I want and I trust you to do your part."
+ > "I know what I want and I trust you to do your part."
     - Have names that, insofar as you can anticipate, will not change.
     - Not have order dependent parameters
 
