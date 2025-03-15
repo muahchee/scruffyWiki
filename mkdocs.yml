@@ -20,6 +20,9 @@ nav:
   - Gamedev Notes:
     - notes/gamedevNotes/
 
+  - Ideas/Concepts:
+    - notes/ideas/
+
 
 extra_css:
   - stylesheets/extra.css

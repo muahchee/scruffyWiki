@@ -7,11 +7,13 @@
 
 蕙伊 (Hui Yi). Short description.
 
-**Also known as**: Boss
+**Also known as**: Boss (by Ein)
 
 **Status**: Alive
 
 **Species**: Deep-sea resident
+
+**Name pun**: 回忆 - which means 'memory'
 
 ---
 
@@ -38,9 +40,14 @@
 
 ## Desire { .underline }
 
+- Freedom
+
 ---
 
 ## Fear { .underline }
+
+- Commitment
+- Responsibility
 
 ---
 

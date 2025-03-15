@@ -1,5 +1,6 @@
 :red_envelope: Restoran Laut brainstorm
 ========================
+## Why?
 
 Why did I make it?
 
@@ -8,6 +9,8 @@ Because I wanted to make something that reminded me of Malaysia.
 Ein walks in on 幻颖 tearing down repeated 福字 in Restoran Makanan Laut Kam Yat (琴日).
 
 ---
+
+## 幻颖 and 蕙伊
 
 幻颖 and 蕙伊 are deep-sea people who have come to Bandar Esok to bring back another deep-sea resident - the 年兽。
 
@@ -20,6 +23,8 @@ Ein walks in on 幻颖 tearing down repeated 福字 in Restoran Makanan Laut Kam
 幻颖 is frustrated by the 年兽，they don't like how the beast is influencing and altering the town. 幻颖 spends a significant amount of time trying to clean up its 'messes'.
 
 ---
+
+## The story
 
 Ein walks in on 幻颖 'cleaning up'. 
 

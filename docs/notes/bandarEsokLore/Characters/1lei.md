@@ -1,17 +1,21 @@
-:material-timer-pause-outline: 桂蕾
+:material-timer-pause-outline: 蕾
 ========================
 
 { .profile-img }
 
 ## Profile { .underline }
 
-桂蕾 (Gui Lei). Short description.
+Full name is 桂蕾 (Gui Lei). Short description.
 
 **Also known as**: 阿蕾, Lei
 
-**Status**: Revived
+**Status**: Undead
 
-**Species**: Deep-sea resident
+**Species**: Doll
+
+**Name pun**:  傀儡 - which means puppet
+
+**Affiliation**: Storyteller's Club
 
 ---
 
