@@ -1,4 +1,4 @@
-Object Oriented Programming
+:material-code-braces: Object Oriented Programming
 ========================
 ## Tips from POODR
 

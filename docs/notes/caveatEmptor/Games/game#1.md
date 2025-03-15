@@ -1,4 +1,4 @@
-Game #1
+:material-bottle-tonic-skull-outline:  Game #1
 ========================
 
 ## Day 1
@@ -19,7 +19,7 @@ It seems that I mistook the ex-soldier for a simple old person with with an ego 
 
 I will take the cloak for dry-cleaning first thing tomorrow. 
 
-**0 Vexation Points**
+:material-skull-scan-outline:  **0 Vexation Points** 
 
 ---
 
@@ -37,7 +37,7 @@ Hermann will get exclusive access to a "divine muse". I'm not sure if Io's "divi
 
 Just as Hermann was about to make the impulse purchase, a sudden realisation stopped them. They hold up the tools once more, rotating them while asking themself "...Does this spark joy?" They wound up leaving without purchasing the tools.
 
-**0 Vexation Points**
+:material-skull-scan-outline:  **0 Vexation Points**
 
 [...oh no the boss is going to kill me]
 

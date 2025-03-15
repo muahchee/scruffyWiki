@@ -1,4 +1,4 @@
-Restoran Laut brainstorm
+:red_envelope: Restoran Laut brainstorm
 ========================
 
 Why did I make it?

@@ -4,36 +4,43 @@ nav:
   - Home: index.md
 
   - Bandar Esok: 
-    - Snippets: 
-      - notes/bandarEsokLore/snippets/年兽-influence.md
-      - notes/bandarEsokLore/snippets/restoran-laut-brainstorm.md
+    - notes/bandarEsokLore/
 
   - Solo Journalling Games: 
 
     - Caveat Emptor:
-      - Intro: 
-        - notes/caveatEmptor/Caveat Emptor.md
-        - notes/caveatEmptor/Notes on the Boss (Mephistopheles).md
-      - notes/caveatEmptor/game#1.md
+      - notes/caveatEmptor/
 
     - Ex Novo:
-      - Game#1: 
-        - notes/exNovo/game#1/bandar-esok-ver-1.md
-        - notes/exNovo/game#1/Events.md
+      - notes/exNovo/
 
   - Webdev Notes:
-    - notes/webdevNotes/the-odin-project.md
-    - notes/webdevNotes/using-mkdocs.md
-    - notes/webdevNotes/on-digital-gardens.md
-    - notes/webdevNotes/sortableJS.md
-    - notes/webdevNotes/oop.md
+    - notes/webdevNotes/
+
+  - Gamedev Notes:
+    - PICO-8:
+      - notes/gamedevNotes/pico-8/
+
 
 extra_css:
   - stylesheets/extra.css
   
 theme: 
+  logo: media/notebook-heart.svg
   name: material
   favicon: media/gaston-head.png
+  palette:
+    primary: teal
+    accent: deep orange
+  features:
+    - navigation.indexes 
 
-# features:
-#     - navigation.instant (needs url)
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - include_dir_to_nav

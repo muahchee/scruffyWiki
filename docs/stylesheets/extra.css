@@ -1,7 +1,78 @@
+@font-face {
+  font-family: "basiic";
+  src: url(../fonts/basiic.ttf);
+}
+
+@font-face {
+  font-family: "heartfont";
+  src: url(../fonts/heartfont.ttf);
+}
+
+@font-face {
+  font-family: "yoster";
+  src: url(../fonts/yoster.ttf);
+}
+
+:root, [data-md-color-scheme="default"]{
+
+  --md-default-bg-color: #fdf8ea;
+  
+}
+
+:root {
+
+  --md-text-font: "basiic", Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+  --md-code-font: Roboto Mono, monospace; 
+
+}
+
+
 .md-typeset ul{
   list-style-type: circle;
 }
 
 .md-typeset ol li, .md-typeset ul li{
   margin-bottom: 20px;
+}
+
+.md-nav {
+  font-size: .8rem;
+  line-height: 1.6;
+}
+
+.md-typeset {
+  font-size: .9rem
+}
+
+.bold {
+
+  font-weight: bold;
+  color: var(--md-accent-fg-color)
+
+}
+
+.underline {
+
+  text-decoration: underline;
+
+}
+
+/* @keyframes heart {
+  0%, 40%, 80%, 100% {
+    transform: scale(1);
+  }
+  20%, 60% {
+    transform: scale(1.15);
+  }
+} */
+
+.profile-img {
+
+  float: right;
+  width: 350px;
+  margin: 0 50px 50px 0;
+
+  /* animation: heart 2000ms infinite; */
+
 }
