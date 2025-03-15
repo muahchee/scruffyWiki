@@ -18,8 +18,7 @@ nav:
     - notes/webdevNotes/
 
   - Gamedev Notes:
-    - PICO-8:
-      - notes/gamedevNotes/pico-8/
+    - notes/gamedevNotes/
 
 
 extra_css:
