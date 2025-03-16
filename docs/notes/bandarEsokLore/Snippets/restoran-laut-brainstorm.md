@@ -6,13 +6,13 @@ Why did I make it?
 
 Because I wanted to make something that reminded me of Malaysia.
 
-Ein walks in on 幻颖 tearing down repeated 福字 in Restoran Makanan Laut Kam Yat (琴日).
+[Ein](../Characters/1ein.md) walks in on 幻颖 tearing down repeated 福字 in Restoran Makanan Laut Kam Yat (琴日).
 
 ---
 
-## 幻颖 and 蕙伊
+## [幻颖](../Characters/1huan-ying.md) and [蕙伊](../Characters/1hui-yi.md)
 
-幻颖 and 蕙伊 are deep-sea people who have come to Bandar Esok to bring back another deep-sea resident - the 年兽。
+幻颖 and 蕙伊 are deep-sea people who have come to Bandar Esok to bring back another deep-sea resident - the [年兽](../Characters/beast.md)。
 
 蕙伊，being self-interested, took this as an opportunity to set a a shop and participate in the local culture, completely ignoring their mission. 
 

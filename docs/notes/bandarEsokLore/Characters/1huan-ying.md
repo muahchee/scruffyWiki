@@ -3,6 +3,7 @@
 
 ![huanying looking away and holding broom](../../../media/huanying-full.jpg){ .profile-img }
 
+
 ## Profile { .underline }
 
 幻颖 (Huan Ying). A civil worker sent from the deep-sea to bring back a missing resident - the 年兽. Takes their job very seriously. Incapable of speaking fluently.
@@ -46,6 +47,7 @@ Doesn't have much self-confidence and sees their diligence as their only asset.
 ### Dislikes
 
 - Laziness
+- Broken promises
 - Talking
 
 ### Hobbies
@@ -88,7 +90,8 @@ Both are civil servants working in the same department and are deployed together
 Despite having many gripes with them, 幻颖 works well with them and relaxes around them. 幻颖 even helps them out with their souvenir store - [剩鱼厅](../Locations/souvenir-shop.md), which has nothing to do with the mission.
 
 
-![ein chibi](../../../media/ein-skrunkle.jpg){ .skrunkle-img }
+![ein-chibi](../../../media/ein-skrunkle.jpg){ .skrunkle-img }
+
 
 ### [Ein](1ein.md)
 

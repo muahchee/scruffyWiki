@@ -6,14 +6,6 @@ I plant my half-baked ideas here and let them grow.
 
 :fontawesome-regular-moon: :fontawesome-solid-carrot: :material-flower-tulip-outline: :material-lead-pencil:
 
----
-
-This [garden](notes/webdevNotes/on-digital-gardens.md) currently includes - 
-
-- Bandar Esok Lore
-- Solo Journalling Game Logs
-- Webdev Notes
-- Gamedev Notes
 
 ---
 

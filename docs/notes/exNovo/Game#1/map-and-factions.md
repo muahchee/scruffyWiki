@@ -9,6 +9,7 @@ Endgame.
 ![exNovo1 map](../../../media/exNovo1%20map.jpg)
 
 
+
 ---
 
 ## Factions
@@ -17,7 +18,8 @@ Endgame.
 
 Absorbed by The Mages to form The City Council
 
-![miners-guild-logo](../../../media/miners-guild.jpg)
+![miners-guild logo](../../../media/miners-guild.jpg)
+
 
 - Cinnabar ore in the center
 
@@ -27,20 +29,24 @@ Absorbed by The Mages to form The City Council
 
 ![scholars logo](../../../media/scholars.jpg)
 
+
 Current Role: Bringer of "eternity". Cause of the current state of endless celebration.
 
 
 ![eel-scholar](../../../media/eel-scholar.jpg)
+
 
 - The eel represents life and the research of eternal life
 
 
 ![staff](../../../media/staff.jpg)
 
+
 - The staff represent knowledge of their forebearers
 
 
 ![the-frame](../../../media/the-frame.jpg)
+
 
 - The frame represents secrecy and containment
 
@@ -62,6 +68,7 @@ Current Role: Secular Authority
 ### The Mages
 
 ![mages logo](../../../media/mages.jpg)
+
 
 Split off from The Scholars.
 
@@ -85,7 +92,8 @@ Logo is simplified and easier to draw compared to The Scholars, reflecting The M
 
 ### The City Council
 
-![city-council](../../../media/city-council.jpg)
+![city-council logo](../../../media/city-council.jpg)
+
 
 The Mages + The Miner's Guild
 

@@ -39,4 +39,4 @@ I think design patterns might be useful for planning out dependencies.
 
 ## OOP examples
 
-- [Kevin Makes Games PICO-8 star field example](../gamedevNotes/pico-8/oop-in-pico8.md#Star%20field%20example)
+- [Kevin Makes Games PICO-8 star field example](../gamedevNotes/PICO-8/oop-in-pico8.md#star-field-example)
