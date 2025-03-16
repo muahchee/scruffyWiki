@@ -6,7 +6,7 @@ Fulke and Galric got into a heated argument and left on bad terms. In revenge, F
 
 Galric read this letter in the pub and started weeping.
 
-One of The Scholars who was in the town incognito saw this and offered to help. Going against the Scholars' rules, they used a ritual to pinpoint the child's location and captor. Galric, now aware of magic's usefulness, no longer holds a stigma against it.
+One of [The Scholars](map-and-factions.md#the-scholars) who was in the town incognito saw this and offered to help. Going against the Scholars' rules, they used a ritual to pinpoint the child's location and captor. Galric, now aware of magic's usefulness, no longer holds a stigma against it.
 
 The scholars are displeased. The public display of magic might leak their existence! Though, they are unaware that the reputation of the arcane has slightly turned for the better in Bandar Esok.
 
@@ -28,7 +28,7 @@ As a monument to this new hygiene craze, a new bathhouse was constructed, with f
 
 ## 3) Ground becomes unstable
 
-An earthquake causes the big mountain nearby to collapse. No one got hurt but now the city has lost easy access to their main export - cinnabar. The only was to get more is to main the mountains further east and west. The city chooses the western mountains. A new district is build nearby, close to the swamp and The Scholars' secret research post.
+An earthquake causes the big mountain nearby to collapse. No one got hurt but now the city has lost easy access to their main export - cinnabar. The only was to get more is to main the mountains further east and west. The city chooses the western mountains. A new district is build nearby, close to the swamp and [The Scholars'](map-and-factions.md#the-scholars) secret research post.
 
 As there is not as much cinnabar in these mountains, mining as a career is in decline.
 
@@ -44,7 +44,7 @@ Many members of The Scholars have taken up residence in the new district
 
 ## 4) A great scandal
 
-Some of The Scholars that live in the western district are sick of practicing in the shadows, so they devise a plan to gain favour in the city. They called themselves "The Rebels".
+Some of [The Scholars](map-and-factions.md#the-scholars) that live in the western district are sick of practicing in the shadows, so they devise a plan to gain favour in the city. They called themselves "The Rebels".
 
 First, they set up one of The Scholars' suppliers to get caught for stealing guild supplies. All Scholar suppliers have a spell that prevents them from revealing the recipient.
 
@@ -54,7 +54,7 @@ Most people still thought magic was suspicious at best and demonic at worst. Tho
 
 The other Scholars disowned the Rebels. But now that their suppliers are gone, they have no choice but to assimilate into society
 
-:material-pin: **-1 power for The Miner's Guild**
+:material-pin: **-1 power for [The Miner's Guild](map-and-factions.md#the-miners-guild)**
 
 ---
 
@@ -64,7 +64,7 @@ A new King has been crowned. Hearing about the practice of blasphemous magic her
 
 A government building is constructed. Upon arrival, the Minister is not liked at all.
 
-The Minister is also tasked with making the city more 'useful' to The Royal Family.
+The Minister is also tasked with making the city more 'useful' to [The Royal Family](map-and-factions.md#the-royal-family).
 
 The King strongly believes in traditional family and religious values.
 
@@ -104,7 +104,7 @@ Monsters are generally regarded as folktales or relics of antiquity. The blue be
 
 Unable to find a logical explanation to this, the people's belief turn to the supernatural.
 
-The Scholars, now under a new generation of leadership, takes this opportunity to share their forebearers' knowledge.
+[The Scholars](map-and-factions.md#the-scholars), now under a new generation of leadership, takes this opportunity to share their forebearers' knowledge.
 
 The beast is called the [年兽](../../bandarEsokLore/Characters/beast.md) and comes from the ocean. They say that the 年兽 has three great fears - the colour red, loud noises and bright lights.
 
@@ -126,7 +126,7 @@ A group of thieves have taken over the western mines. They had been sent by a ri
 
 Lacking any sort of militia, the people couldn't do much to the well armed bandits. The mister has tried to contact the Capital multiple times, but reinforcements never arrived.
 
-The western district becomes more dangerous. But this increase in chaos have allowed the resident members of The Scholars to practice more bold magic. It's to protect the town, right?
+The western district becomes more dangerous. But this increase in chaos have allowed the resident members of [The Scholars](map-and-factions.md#the-scholars) to practice more bold magic. It's to protect the town, right?
 
 An eastern district is established so the city can mine in the eastern mountains
 
@@ -140,13 +140,13 @@ An eastern district is established so the city can mine in the eastern mountains
 
 Growing internal tensions between The Scholars in the western district and research post have resulted in the faction splitting in two. The two sides are unable to agree on the purpose of magic. The western district ex-Scholars call themselves "The Mages" and practice magic openly.
 
-### The Scholars
+### [The Scholars](map-and-factions.md#the-scholars)
 
 - Reside in the research post
 - study magic in search of eternal life, continuing initial goal of the research post
 - Believes that all magic discovered should be in service to that goal, not to be used for personal reasons.
 
-### The Mages
+### [The Mages](map-and-factions.md#the-mages)
 
 - Reside in the western district
 - Western district is dangerous, you need to use whatever you can to stay safe.
@@ -160,7 +160,7 @@ Growing internal tensions between The Scholars in the western district and resea
 
 ## 10) Ground becomes unstable, yet again
 
-The western mountain collapses suddenly. Thanks to The Mages, most people evacuated to the central district. The bandit leader was killed in the collapse.
+The western mountain collapses suddenly. Thanks to [The Mages](map-and-factions.md#the-mages), most people evacuated to the central district. The bandit leader was killed in the collapse.
 
 There are rumours that the over-mining  of cinnabar had angered a beast deep in the mountain. That's probably what happened to the Big Mountain in the past, right?
 
@@ -178,15 +178,15 @@ At night, glowing eyes and unnatural figures can be spotted in the ruins of the 
 
 ## 11) A revolution succeeds
 
-As strange occurrences become more frequent, the people of Bandar Esok turn to The Mages for guidance, considering them the authorities on the supernatural.
+As strange occurrences become more frequent, the people of Bandar Esok turn to [The Mages](map-and-factions.md#the-mages) for guidance, considering them the authorities on the supernatural.
 
-Soon, The Mages organises themselves as the city's ruling body. They take over The Miner's Guild building and renamed themselves The City Council.
+Soon, The Mages organises themselves as the city's ruling body. They take over [The Miner's Guild](map-and-factions.md#the-miners-guild) building and renamed themselves The City Council.
 
 The second generation Minister is in a tight position - not only have they failed to eradicate the practice of magic, the practitioners are now in charge! Their predecessor was beloved in the city. At least they inherited some of that good favour.
 
 They have no choice but to work closely with the new City Council.
 
-:material-pin: **The Mages + The Miner's Guild => The City Council**
+:material-pin: **The Mages + The Miner's Guild => [The City Council](map-and-factions.md#the-city-council)**
 
 --
 

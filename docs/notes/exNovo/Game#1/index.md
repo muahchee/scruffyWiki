@@ -44,7 +44,7 @@ Attempts to claim authoritative power over the settlement are deeply looked down
 
 Staunch Allies ( x2 factions )
 
-**The Scholars**
+**[The Scholars](map-and-factions.md#the-scholar)**
 
 Situated near the swamp. Subsists on the freshwater eels and snakeheads there.
 
@@ -62,7 +62,7 @@ There are senior scholars who make the rules and act as authority figures.
 
 =====
 
-**The Miner's Guild**
+**[The Miner's Guild](map-and-factions.md#the-miners-guild)**
 
 Technically everybody at the settlement is a member. 
 
@@ -76,26 +76,26 @@ The guild building is used as the town centre.
 
 ## Timeline
 
-1. A hostage is liberated ( +1 power to the Scholars )
+1. [A hostage is liberated ( +1 power to the Scholars )](Events.md#1%29%20A%20hostage%20is%20liberated)
 
-2. Hygiene gains in importance ( + bathhouse )
+2. [Hygiene gains in importance ( + bathhouse )](Events.md#2%29%20Hygiene%20gains%20in%20importance)
 
-3. Ground becomes unstable ( big mountain collapses, new district is formed )
+3. [Ground becomes unstable ( big mountain collapses, new district is formed )](Events.md#3%29%20Ground%20becomes%20unstable)
 
-4. A great Scandal ( -1 power to The Miner's Guild )
+4. [A great Scandal ( -1 power to The Miner's Guild )](Events.md#4%29%20A%20great%20scandal)
 
-5. A strong claim ( +1 faction - The Royal Family, + government building )
+5. [A strong claim ( +1 faction - The Royal Family, + government building )](Events.md#5%29%20A%20strong%20claim)
 
-6. A grand palace is built ( government building => palace => community centre )
+6. [A grand palace is built ( government building => palace => community centre )](Events.md#6%29%20A%20grand%20palace%20is%20built)
 
-7. A great fear ( +1 power to The Scholars )
+7. [A great fear ( +1 power to The Scholars )](Events.md#7%29%20A%20great%20fear)
 
-8. Criminals make travel difficult ( +1 bandits, new district is formed )
+8. [Criminals make travel difficult ( +1 bandits, new district is formed )](Events.md#8%29%20Criminals%20makes%20travel%20difficult)
 
-9. An important alliance falls apart ( +1 faction - The Mages [split from The Scholars] )
+9. [An important alliance falls apart ( +1 faction - The Mages [split from The Scholars )](Events.md#9%29%20An%20important%20alliance%20falls%20apart)
 
-10. Ground becomes unstable, yet again ( western district destroyed )
+10. [Ground becomes unstable, yet again ( western district destroyed )](Events.md#10%29%20Ground%20becomes%20unstable%2C%20yet%20again)
 
-11. A revolution succeeds ( The Scholars + The Miner's Guild = City Council [factions merge] )
+11. [A revolution succeeds ( The Scholars + The Miner's Guild = City Council [factions merge )](Events.md#11%29%20A%20revolution%20succeeds)
 
-12. The Scholars discovered "eternity", trapped the beast in the city.
+12. [The Scholars](map-and-factions.md#The%20Scholars) discovered "eternity", trapped [the beast](../../bandarEsokLore/Characters/beast.md) in the city.
