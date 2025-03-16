@@ -1,7 +1,7 @@
 :material-broom: 幻颖
 ========================
 
-{ .profile-img }
+![huanying looking away and holding broom](../../../media/huanying-full.jpg){ .profile-img }
 
 ## Profile { .underline }
 
@@ -23,9 +23,9 @@ Has short messy white hair and yellow eyes. Their eyebrows are almost like littl
 
 In their human form, their ears are rounded and their sclera are white. In their natural form, their ears are long and pointed and their sclera are black, with gills down their neck.
 
-They are usually in a white shirt underneath a seafoam green sweater, with a brown tie and brown checked pants. When they are helping out at 剩鱼厅, they wear a waist apron.
+They are usually in a white shirt underneath a dark blue and gold sweater, with a teal tie and brown checked pants. When they are helping out at 剩鱼厅, they wear a waist apron.
 
-They always have their broom in hand.
+They always have their broom in hand. The broom has a fish bone charm made by 蕙伊 attached to the top。
 
 ---
 
@@ -81,15 +81,18 @@ A civil servant in the deep-sea working in the Missing Persons Department. They 
 
 ### [蕙伊](1hui-yi.md)
 
-Both are civil servants working in the same department and are deployed together to being back the 年兽. Given how often they'll be together, it would be more convenient of they were seen as siblight during the mission.
+Both are civil servants working in the same department and are deployed together to being back the 年兽. Given how often they'll be together, it would be more convenient of they were seen as siblings during the mission.
 
-幻颖 is often annoyed by their lack of enthusiasm toward their work, despite their capabilities. They often let 幻颖 take most of the credit for successful missions, saying that they want to "avoid the boss' attention". This gives 幻颖 mixed feelings.
+幻颖 is often annoyed by 蕙伊's lack of enthusiasm toward their work, despite their capabilities. 蕙伊 often let 幻颖 take most of the credit for successful missions, saying that they want to "avoid the boss' attention". This gives 幻颖 mixed feelings.
 
 Despite having many gripes with them, 幻颖 works well with them and relaxes around them. 幻颖 even helps them out with their souvenir store - [剩鱼厅](../Locations/souvenir-shop.md), which has nothing to do with the mission.
 
+
+![ein chibi](../../../media/ein-skrunkle.jpg){ .skrunkle-img }
+
 ### [Ein](1ein.md)
 
-They met on a train 幻颖 was investigating. 幻颖 returned a bag they left on the train. Ever since, 幻颖 keeps coincidentally bumping into them. 幻颖 thinks it might be part of the 年兽's doing.
+Met on a train 幻颖 was investigating. 幻颖 returned a bag Ein left on the train. Ever since, 幻颖 keeps coincidentally bumping into them. 幻颖 thinks it might be part of the 年兽's doing.
 
 幻颖 understands that Ein is trying to befriend them, but is reluctant to open up because they can't rationalise it.
 > 'Why would they want to be my friend? I can't think of a single reason.'
@@ -100,7 +103,7 @@ As they keep meeting and interacting more, 幻颖 starts to soften up to them.
 
 幻颖‘s mission target.
 
-幻颖 is frustrated by them，they believe that the beast is influencing and altering the town. 幻颖 spends a significant amount of time trying to clean up its 'messes'.
+幻颖 is frustrated by the 年兽, they believe that the beast is influencing and altering the town. 幻颖 spends a significant amount of time trying to clean up its 'messes'.
 
 ---
 

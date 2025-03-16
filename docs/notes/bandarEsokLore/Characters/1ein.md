@@ -1,11 +1,10 @@
 :material-ghost-outline: Ein
 ========================
-
-![30-11-2024-selfie](../../../media/30-11-2024-selfie.jpg){ .profile-img }
+![ein posing like a ghost](../../../media/ein-full.jpg){ .profile-img }
 
 ## Profile { .underline }
 
-Full name is 桂hun (Gui Hun). An art school dropout that has returned to their childhood home in Bandar Esok after 9 years abroad. 
+Full name is 桂珲 (Gui Hun). An art school dropout that has returned to their childhood home in Bandar Esok after 9 years abroad. 
 
 **Also known as**: 阿珲 (by 蕾)
 
@@ -19,7 +18,7 @@ Full name is 桂hun (Gui Hun). An art school dropout that has returned to their 
 
 ## Appearance { .underline }
 
-Has short black hair with their fringe parted in the middle, the two sides are held by a pair of dragonfly clips. There is one strand of hair in between the parting. 
+Has short black hair with their fringe parted in the middle, the two sides are held by a pair of jade coloured dragonfly clips. There is one strand of hair in between the parting. 
 
 They have black eyes with irises that look like tv-static. Both eyes have slight eyebags underneath.
 
@@ -29,9 +28,11 @@ Usually wears a red t-shirt, dark jade coloured shorts, and a pair of red jandal
 
 ## Personality { .underline }
 
-Quiet and reserved. Used to be loud and attention-seeking when they were younger.
+Quiet and uncomfortable in large groups. Used to be loud and attention-seeking when they were younger.
 
-Has a hard time making friends. They're lonely but is afraid of needing to change for other people.
+Is mischievous and silly when alone.
+
+Has a hard time making friends. They're lonely but also afraid of needing to change for other people.
 
 Tends to view their childhood with rose tinted glasses. Is quite stubborn when it comes to beliefs they grew up with.
 
@@ -90,6 +91,9 @@ Ein gets caught up in the town's curse and finds out about 蕾's condition.
 ### [蕾](1lei.md)
 
 Ein's cousin. Briefly lived in Ein's childhood home when Ein was in primary school, but now owns the house. Revealed thier undead condition to Ein.
+
+
+![huanying chibi](../../../media/huanying-skrunkle.jpg){ .skrunkle-img }
 
 ### [幻颖](1huan-ying.md)
 
