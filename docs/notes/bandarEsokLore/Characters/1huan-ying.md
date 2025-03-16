@@ -28,6 +28,10 @@ They are usually in a white shirt underneath a dark blue and gold sweater, with 
 
 They always have their broom in hand. The broom has a fish bone charm made by 蕙伊 attached to the top。
 
+### Design Notes
+
+- Small irises - Narrow focus, one track mind
+
 ---
 
 ## Personality { .underline }

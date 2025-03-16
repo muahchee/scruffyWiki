@@ -24,6 +24,13 @@ They have black eyes with irises that look like tv-static. Both eyes have slight
 
 Usually wears a red t-shirt, dark jade coloured shorts, and a pair of red jandals.
 
+### Design Notes
+
+- TV static irises - Vision obscured by nostalgia/memories, videos are records of the past
+    - [how to draw TV Static](https://www.deviantart.com/etheringtonbrothers/art/How-to-THINK-when-you-draw-SCREEN-STATIC-EFFECTS-851536224)
+- Big eyes - Child-like, childhood memories, emphasise TV static
+
+
 ---
 
 ## Personality { .underline }
