@@ -6,7 +6,7 @@
 
 ## Profile { .underline }
 
-幻颖 (Huan Ying). A civil worker sent from the deep-sea to bring back a missing resident - the 年兽. Takes their job very seriously. Incapable of speaking fluently.
+幻颖 (Huan Ying). A civil worker sent from the deep-sea to bring back a missing resident - the 年兽, along with 蕙伊. Takes their job very seriously. Incapable of speaking fluently.
 
 **Also known as**: 颖颖 (by 蕙伊), 阿幻 (by 蕙伊)
 
@@ -15,6 +15,8 @@
 **Species**: Deep-sea resident
 
 **Name pun**: 幻影 - which means 'phantom' or 'illusion'
+
+**Affiliation**: [剩鱼厅](../Locations/souvenir-shop.md)
 
 ---
 
@@ -87,7 +89,7 @@ A civil servant in the deep-sea working in the Missing Persons Department. They 
 
 ### [蕙伊](1hui-yi.md)
 
-Both are civil servants working in the same department and are deployed together to being back the 年兽. Given how often they'll be together, it would be more convenient of they were seen as siblings during the mission.
+Mission partners. Given how often they'll be together, they decide it would be more convenient of they were seen as siblings during the mission.
 
 幻颖 is often annoyed by 蕙伊's lack of enthusiasm toward their work, despite their capabilities. 蕙伊 often let 幻颖 take most of the credit for successful missions, saying that they want to "avoid the boss' attention". This gives 幻颖 mixed feelings.
 

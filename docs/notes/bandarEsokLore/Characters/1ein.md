@@ -116,7 +116,7 @@ They often give Ein tips on where to find 幻颖.
 
 ### 年兽    
 
-Like the other residents of Bandar Esok, [Ein is under their influence](../Snippets/restoran-laut-brainstorm.md#The%20story), afflicted with the curse of eternal celebration.
+Like the other residents of Bandar Esok, [Ein is under their influence](../Snippets/restoran-laut-brainstorm.md#The%20story), afflicted with the curse of eternal celebration, though not to the same extent.
 
 ---
 
