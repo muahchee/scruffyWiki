@@ -108,6 +108,9 @@ They met on the train Ein took to get to Bandar Esok. 幻颖 returned a bag Ein 
 
 They try not to involve Ein in their mission, but is surprised at how they always meet at the most inconvenient times.
 
+
+![huiyi-skrunkle](../../../media/huiyi-skrunkle.jpg){ .skrunkle-img }
+
 ### [蕙伊](1hui-yi.md)
 
 Invited Ein into their store one time after seeing Ein wandering in front of their store. The two of them have a casual friendship. Ein finds their relaxed attitude and lack of ambition comforting and safe. 

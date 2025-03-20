@@ -1,7 +1,7 @@
 :material-hammer-screwdriver: 蕙伊
 ========================
 
-{ .profile-img }
+![huiyi-full](../../../media/huiyi-full.jpg){ .profile-img }
 
 ## Profile { .underline }
 
@@ -23,11 +23,9 @@ Is the proprietor of 剩鱼厅 - a souvenir shop that sells wooden carvings. The
 
 ## Appearance { .underline }
 
-蕙伊 has a bob with two hair pieces sticking out on each side, resembling horns. Their fringe is cut short.
+蕙伊 has a bob with two hair pieces sticking out on each side, resembling horns. Their fringe is cut short. They have circle eyebrows.
 
-In their human form, their ears are rounded and their sclera are white. In their natural form, their ears are long and pointed and their sclera are black, with gills down their neck.
-
-They're usually in a green button-up with the sleeves rolled up to their elbows, and a pair of black pants. They always have a work apron on when not at home, stuffed with woodworking tools and branded with "剩鱼厅". Even when they go out for a stroll. 
+They're usually in a blue button-up with the sleeves rolled up to their elbows, and a pair of brown cargo pants. They always have their green work apron on when not at home, stuffed with woodworking tools and branded with "剩鱼厅".
 
 > "You never know when inspiration will strike! ...Plus it's good advertisement!"
 
@@ -35,9 +33,9 @@ They're usually in a green button-up with the sleeves rolled up to their elbows,
 
 ## Personality { .underline }
 
-Easygoing and get along well with people. Doesn't sweat the small stuff. Loves getting to know others and learning about new perspectives.
+Easygoing and gets along well with people. Doesn't sweat the small stuff. Loves getting to know others and learning about new perspectives.
 
-Their curiosity leads to alot of hobbies and interests. The contents of  剩鱼厅 often reflect whatever their current obssession is.
+Their curiosity leads to alot of hobbies and interests. The contents of  剩鱼厅 often reflect whatever their current obsession is.
 
 Is also rather fickle, unwilling to do anything that they deem "boring". Doesn't want to be tied down by commitment.
 
@@ -62,9 +60,9 @@ Is also rather fickle, unwilling to do anything that they deem "boring". Doesn't
 
 ## History { .underline }
 
-A civil servant in the deep-sea working in the Missing Persons Department. They were usually deployed locally, but were sent to Bandar Esok with 幻颖 for this particular mission. 蕙伊 has been in the department much longer than 幻颖. They used to be a top performer at their job, excelling at investigation and information gathering, but their performance started to decline when they got bored of it. 蕙伊 is frustrated because they can't quit, as thier boss threatened to blacklist them and prevent them from getting any other job.
+A civil servant in the deep-sea working in the Missing Persons Department. They were usually deployed locally, but were sent to Bandar Esok with 幻颖 for this particular mission. 蕙伊 has been in the department much longer than 幻颖. They used to be a top performer at their job, excelling at investigation and information gathering, but their performance started to decline when they got bored of the work. 蕙伊 is frustrated because they can't quit, as their boss threatened to blacklist them and prevent them from getting any other job.
 
-Using this mission as their lucky break, they decide to try to make a living in Bandar Esok, setting up a souvenir shop. 蕙伊 picked up woodworking, using local materials to make their products. Though the shop had no customers at first, through the connectiong formed with the locals, customers start coming.
+Using this mission as their lucky break, they decide to make a living in Bandar Esok, setting up a souvenir shop. 蕙伊 picked up woodworking, using local materials to make their products. Though the shop had no customers at first, business starts to pick up as they formed connections with the locals.
 
 蕙伊 has no intention of returning to the deep-sea.
 
@@ -89,7 +87,7 @@ Using this mission as their lucky break, they decide to try to make a living in 
 
 ### [幻颖](1huan-ying.md)
 
-Mission partners. Given how often they'll be together, they decide it would be more convenient of they were seen as siblings during the mission.
+Mission partners and "siblings". Mission siblings.
 
 Despite not being interested in the assigned mission, 蕙伊 often helps 幻颖 work through clues and observations. They feel comfortable around each other and have alot of mutual trust.
 

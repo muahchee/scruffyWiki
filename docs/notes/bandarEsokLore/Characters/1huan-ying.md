@@ -24,8 +24,6 @@
 
 Has short messy white hair and yellow eyes. Their eyebrows are almost like little circles. 
 
-In their human form, their ears are rounded and their sclera are white. In their natural form, their ears are long and pointed and their sclera are black, with gills down their neck.
-
 They are usually in a white shirt underneath a dark blue and gold sweater, with a teal tie and brown checked pants. When they are helping out at 剩鱼厅, they wear a waist apron.
 
 They always have their broom in hand. The broom has a fish bone charm made by 蕙伊 attached to the top。
@@ -86,6 +84,8 @@ A civil servant in the deep-sea working in the Missing Persons Department. They 
 ---
 
 ## Relationships { .underline }
+
+![huiyi-skrunkle](../../../media/huiyi-skrunkle.jpg){ .skrunkle-img }
 
 ### [蕙伊](1hui-yi.md)
 
