@@ -97,7 +97,7 @@ Ein gets caught up in the town's curse and finds out about 蕾's condition.
 
 ### [蕾](1lei.md)
 
-Ein's cousin. Briefly lived in Ein's childhood home when Ein was in primary school, but now owns the house. Revealed thier undead condition to Ein.
+Ein's cousin. Briefly lived in Ein's childhood home when Ein was in primary school, but now owns the house. Revealed thier "resurrected" condition to Ein. 蕾 is the only family member Ein is close to.
 
 
 ![huanying chibi](../../../media/huanying-skrunkle.jpg){ .skrunkle-img }
