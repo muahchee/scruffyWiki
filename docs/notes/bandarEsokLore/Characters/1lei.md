@@ -17,11 +17,15 @@ Full name is 桂蕾 (Gui Lei). Ein's older cousin and lives in the same house.
 
 **Affiliation**: [绘声社](../Factions/storytelling-club.md)
 
+**Theme**: Imposter syndrome
+
 ---
 
 ## Appearance { .underline }
 
 蕾 is 185cm tall. They have long hair that is usually tied in a loose side ponytail. Often wears polo shirts paired with basketball shorts. They wear a jade bracelet with a pen nib charm on their left wrist, it was a gift from Ein.
+
+Has flawless skin.
 
 ### Design notes
 
@@ -31,7 +35,7 @@ Their center fringe is meant to look like the paper talisman （符籙 fulu) of 
 
 ## Personality { .underline }
 
-Gentle and pleasant to talk to. Has a good intuition when it comes to finding the right words to say. Is aware of their "gentle giant" image and tends to lean into that, even at the cost of their true feelings.
+Upbeat and pleasant to talk to. Has a good intuition when it comes to finding the right words to say. Is aware of their "gentle giant" image and tends to lean into that, even at the cost of their true feelings.
 
 Has a tendency to lie in order to maintain their image, saying what people want to hear. Mentally berates themself whenever they give in to the impulse. Has major impostor syndrome.
 
@@ -41,6 +45,7 @@ Has a tendency to lie in order to maintain their image, saying what people want 
 - Butter prawns
 - Huat Kueh
 - Watching costume dramas
+- Cooking
 
 ### Dislikes
 
@@ -68,6 +73,12 @@ When 蕾 returned to the accident site, it had already been cleared out. Cars we
 They stuggled to adapt until meeting a member of the 绘声社, a group a similarly "resurrected" people. Through the help of their club members, 蕾 got to know more about their ["symptoms"](../Factions/storytelling-club.md#symptoms).
 
 蕾 couldn't decide whether to confide in Ein about their situation, but [Ein eventually found out and accepted 蕾 for who they are](../Snippets/%E5%9B%9E%E4%B9%A1summary.md).
+
+Currently works as a chef at a Yong Tau Foo restaurant with a fellow clubmate. The restaurant has been there for decades.
+ 
+ ### Design Note
+ 
+  - [Eating = Being alive](../../ideas/dungeon-meshi.md)
  
 ---
 
@@ -95,5 +106,18 @@ They stuggled to adapt until meeting a member of the 绘声社, a group a simila
 蕾 tries their best to call Ein by their new english name rather than "阿珲". Is motivated to keep thier lying impulses under control for Ein's sake.
 
 ### Design note
+
 Serves as a contrast to Ein -  Ein yearns to return to the past; Lei has no choice but to live in it.
+
+---
+
+## Playlist
+
+- [ギラギラ (Gira Gira) - Ado](https://www.youtube.com/watch?v=sOiMD45QGLs)
+- [ライアーダンサー(Liar Dancer) - マサラダ (masarada)](https://www.youtube.com/watch?v=UHbmkxv-874)
+- [xxxx/xx/xx - Regret(CV: Arisa Kori), Caligula Effect 2](https://downloads.khinsider.com/game-soundtracks/album/caligula-effect-2-regret-and-vocal-collection/1-1.08%2520xxxx-xx-xx.mp3)
+- [匙ノ咒 - r906](https://www.youtube.com/watch?v=B6vKLsh09Qw)
+- [XDDCC - Gooseworx & Evan Alderete, The Amazing Digital Circus](https://www.youtube.com/watch?v=2kyDrjeQyEs)
+- [Clockwork (CVIII: Dracula's Curse)  - cover by Vernian Process](https://vernianprocess.bandcamp.com/track/clockwork-cviii-draculas-curse)
+
 

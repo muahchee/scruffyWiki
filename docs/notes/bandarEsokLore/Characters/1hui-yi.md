@@ -19,6 +19,8 @@ Is the proprietor of 剩鱼厅 - a souvenir shop that sells wooden carvings. The
 
 **Affiliation**: [剩鱼厅](../Locations/souvenir-shop.md)
 
+**Theme**: Freedom
+
 ---
 
 ## Appearance { .underline }

@@ -14,6 +14,8 @@ Full name is 桂珲 (Gui Hun). An art school dropout that has returned to their 
 
 **Name pun** : (full chinese name) 鬼魂 - which means 'ghost' or 'spirit'. 
 
+**Theme**: Change
+
 ---
 
 ## Appearance { .underline }
@@ -123,10 +125,15 @@ Like the other residents of Bandar Esok, [Ein is under their influence](../Snipp
 
 ---
 
+## Playlist
+
+---
+
 ## Misc.
 
 - They're english name 'Ein' comes from the protagonist of [Riviera: The Promised Land](https://en.wikipedia.org/wiki/Riviera:_The_Promised_Land), which is one of my favourite games. 
 - Ein used to be called Einar, but I think Ein sounds cuter.
+
 
 
 

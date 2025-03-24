@@ -18,6 +18,8 @@
 
 **Affiliation**: [剩鱼厅](../Locations/souvenir-shop.md)
 
+**Theme**: Validation
+
 ---
 
 ## Appearance { .underline }
