@@ -25,6 +25,8 @@
 
 [Dandori Organiser](https://muahchee.github.io/dandori-organiser/) - A mini-version of the to-do list project.
 
+[Todo List app](https://muahchee.github.io/todo-list/) - Omg i hated this project. I learned so much from it. But fuck this project. 
+
 
 ---
 
