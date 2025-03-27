@@ -37,6 +37,23 @@ I think design patterns might be useful for planning out dependencies.
 
 --
 
+## Visitor Pattern
+
+[wikipedia](https://en.wikipedia.org/wiki/Visitor_pattern?ref=hackernoon.com)
+
+Represent[ing] an operation to be performed on elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
+
+The nature of the Visitor makes it an ideal pattern to plug into public APIs, thus allowing its clients to perform operations on a class using a "visiting" class without having to modify the source.
+
+When new operations are needed frequently and the object structure consists of many unrelated classes, it's inflexible to add new subclasses each time a new operation is required because "[..] distributing all these operations across the various node classes leads to a system that's hard to understand, maintain, and change."
+
+Define a separate (visitor) object that implements an operation to be performed on elements of an object structure.
+
+![W3sDesign_Visitor_Design_Pattern_UML](../../media/W3sDesign_Visitor_Design_Pattern_UML.jpg)
+
+
+--
+
 ## OOP examples
 
 - [Kevin Makes Games PICO-8 star field example](../gamedevNotes/PICO-8/oop-in-pico8.md#star-field-example)
