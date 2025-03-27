@@ -18,3 +18,20 @@ Even a non-duck entity that behaves like a duck can be considered a duck because
 
 ---
 
+## Yoda Conditions
+
+```
+// Traditional condition
+if (x === "42") {
+    // Code to execute if x is the string "42"
+}
+
+// Yoda condition
+if ("42" === x) {
+    // Code to execute if x is the string "42"
+}
+```
+
+Yoda conditions place the constant before the variable. I guess it sounds like yoda.
+
+[significance of this](https://www.codingexplorations.com/blog/yoda-conditions-understanding-their-significance-in-programming#:~:text=What%20Are%20Yoda%20Conditions%3F,if%20(42%20%3D%3D%20variable)%20.)
