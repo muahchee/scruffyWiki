@@ -1192,6 +1192,8 @@
       
         
       
+        
+      
     
     
     
@@ -1255,6 +1257,28 @@
   
   <span class="md-ellipsis">
     CSS notes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../funny-phrases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Funny phrases/words
     
   </span>
   
@@ -1356,6 +1380,66 @@
       Closures
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#airbnb-style-guide-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Airbnb style guide notes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Airbnb style guide notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-dont-use-iterators" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.1 Dont use iterators
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hoisting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hoisting
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparison-operators-equality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison Operators &amp; Equality
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Blocks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comments
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1977,6 +2061,66 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#airbnb-style-guide-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Airbnb style guide notes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Airbnb style guide notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-dont-use-iterators" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.1 Dont use iterators
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hoisting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hoisting
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparison-operators-equality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison Operators &amp; Equality
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Blocks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comments
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2050,6 +2194,172 @@ const sayBye = createGreeting('bye');
 console.log(sayBye('xuan')); //BYE xuan
 </code></pre>
 <hr />
+<h2 id="airbnb-style-guide-notes"><a href="https://github.com/airbnb/javascript">Airbnb style guide notes</a></h2>
+<h3 id="111-dont-use-iterators"><a href="https://github.com/airbnb/javascript?tab=readme-ov-file#iterators--nope">11.1 Dont use iterators</a></h3>
+<p>like <code>for-in</code> / <code>for-of</code> / <code>for</code> loops</p>
+<p>Use <code>map()</code> /<code>every()</code> / <code>filter()</code> / <code>find()</code>/ <code>findIndex()</code> / <code>reduce()</code> / <code>some(</code>) / <code>...</code> to iterate over arrays.</p>
+<p>And <code>Object.keys()</code> / <code>Object.values()</code> / <code>Object.entries()</code> to produce arrays so you can iterate over objects.</p>
+<pre><code>const numbers = [1, 2, 3, 4, 5];
+
+// bad
+let sum = 0;
+for (let num of numbers) {
+  sum += num;
+}
+sum === 15;
+
+// good
+let sum = 0;
+numbers.forEach((num) =&gt; {
+  sum += num;
+});
+sum === 15;
+
+// best (use the functional force)
+const sum = numbers.reduce((total, num) =&gt; total + num, 0);
+sum === 15;
+
+// bad
+const increasedByOne = [];
+for (let i = 0; i &lt; numbers.length; i++) {
+  increasedByOne.push(numbers[i] + 1);
+}
+
+// good
+const increasedByOne = [];
+numbers.forEach((num) =&gt; {
+  increasedByOne.push(num + 1);
+});
+
+// best (keeping it functional)
+const increasedByOne = numbers.map((num) =&gt; num + 1);
+</code></pre>
+<h3 id="hoisting"><a href="https://github.com/airbnb/javascript?tab=readme-ov-file#hoisting">Hoisting</a></h3>
+<p>the variable gets pushed up not the value (for <code>var</code>), not the case for <code>let</code> and <code>const</code>.
+<code>let</code> and <code>const</code> are still hoisted but they are in a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#temporal_dead_zone_tdz">Temporal Dead Zone</a> where JavaScript knows they exist (declaration is hoisted) but they are not accessible (as they are not yet initialized).</p>
+<pre><code>// creating a variable declaration after you
+// reference the variable will work due to
+// variable hoisting. Note: the assignment
+// value of `true` is not hoisted.
+function example() {
+  console.log(declaredButNotAssigned); // =&gt; undefined
+  var declaredButNotAssigned = true;
+}
+
+// using const and let
+function example() {
+  console.log(declaredButNotAssigned); // =&gt; throws a ReferenceError
+  console.log(typeof declaredButNotAssigned); // =&gt; throws a ReferenceError
+  const declaredButNotAssigned = true;
+}
+</code></pre>
+<p>Anonymous function expressions hoist their variable name, but not the function assignment.</p>
+<pre><code>function example() {
+  console.log(anonymous); // =&gt; undefined
+
+  anonymous(); // =&gt; TypeError anonymous is not a function
+
+  var anonymous = function () {
+    console.log('anonymous function expression');
+  };
+}
+</code></pre>
+<p>Variables, classes, and functions should be defined before they can be used.</p>
+<h3 id="comparison-operators-equality"><a href="https://github.com/airbnb/javascript?tab=readme-ov-file#comparison-operators--equality">Comparison Operators &amp; Equality</a></h3>
+<p>Objects evaluate to true</p>
+<p>Strings evaluate to false if an empty string '', otherwise true</p>
+<pre><code>if ([0] &amp;&amp; []) {
+  // true
+  // an array (even an empty one) is an object, objects will evaluate to true
+}
+</code></pre>
+<p>The nullish coalescing operator (<code>??</code>) is a logical operator that returns its right-hand side operand when its left-hand side operand is <code>null</code> or <code>undefined</code>. Otherwise, it returns the left-hand side operand.</p>
+<pre><code>// bad
+const value = 0 ?? 'default';
+// returns 0, not 'default'
+
+// bad
+const value = '' ?? 'default';
+// returns '', not 'default'
+
+// good
+const value = null ?? 'default';
+// returns 'default'
+
+// good
+const user = {
+  name: 'John',
+  age: null
+};
+const age = user.age ?? 18;
+// returns 18
+</code></pre>
+<h3 id="blocks">Blocks</h3>
+<p>If an <code>if</code> block always executes a <code>return</code> statement, the subsequent <code>else</code> block is unnecessary. A return in an <code>else if</code> block following an <code>if</code> block that contains a <code>return</code> can be separated into multiple <code>if</code> blocks.</p>
+<pre><code>// bad
+function foo() {
+  if (x) {
+    return x;
+  } else {
+    return y;
+  }
+}
+
+// good
+function foo() {
+  if (x) {
+    return x;
+  }
+
+  return y;
+}
+
+// bad
+function cats() {
+  if (x) {
+    return x;
+  } else if (y) {
+    return y;
+  }
+}
+
+// good
+function cats() {
+  if (x) {
+    return x;
+  }
+
+  if (y) {
+    return y;
+  }
+}
+
+// bad
+function dogs() {
+  if (x) {
+    return x;
+  } else {
+    if (y) {
+      return y;
+    }
+  }
+}
+
+// good
+function dogs(x) {
+  if (x) {
+    if (z) {
+      return y;
+    }
+  } else {
+    return z;
+  }
+}
+</code></pre>
+<h3 id="comments"><a href="https://github.com/airbnb/javascript?tab=readme-ov-file#comments">Comments</a></h3>
+<p>Prefixing your comments with <code>FIXME</code> or <code>TODO</code> helps other developers quickly understand if you’re pointing out a problem that needs to be revisited, or if you’re suggesting a solution to the problem that needs to be implemented. These are different than regular comments because they are actionable. The actions are <code>FIXME: -- need to figure this out</code> or <code>TODO: -- need to implement</code>.</p>
+<p>Use <code>// FIXME:</code> to annotate problems.</p>
+<p>Use <code>// TODO:</code> to annotate solutions to problems.</p>
 
 
 
