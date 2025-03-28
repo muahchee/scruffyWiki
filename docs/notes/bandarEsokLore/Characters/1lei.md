@@ -1,7 +1,7 @@
 :material-timer-pause-outline: 蕾
 ========================
 
-{ .profile-img }
+![lei-full](../../../media/lei-full.jpg){ .profile-img }
 
 ## Profile { .underline }
 
@@ -99,7 +99,7 @@ Currently works as a chef at a Yong Tau Foo restaurant with a fellow clubmate. T
 
 ![ein-chibi](../../../media/ein-skrunkle.jpg){ .skrunkle-img }
 
-### Ein
+### [Ein](1ein.md)
 
 蕾’s cousin. Due to Ein's time away before moving back, 蕾 can't actually see how Ein looks like anymore. Nevertheless, they still have a close and comfortable relationship. 蕾 deeply treasures their famlial connection.
 
