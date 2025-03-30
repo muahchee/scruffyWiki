@@ -1407,6 +1407,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#my-npm-modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      My npm modules
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2025,6 +2034,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#my-npm-modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      My npm modules
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2047,6 +2065,7 @@
 <hr />
 <h2 id="publishing-to-npm">Publishing to npm</h2>
 <p><a href="https://www.youtube.com/watch?v=J4b_T-qH3BY">video by web dev simplified</a></p>
+<p><a href="https://docs.npmjs.com/creating-node-js-modules">documentation</a></p>
 <ol>
 <li>Create a <code>package</code> folder, this will be where the final published thing will live. <code>cd</code> to this folder</li>
 <li>Create a <code>package.json</code> file in the folder using <code>npm init</code>, can edit later.<ul>
@@ -2055,13 +2074,7 @@
 <li>prefixing <code>@muahchee/</code> in front of the package <code>name</code> will create a namespaced package, with "muahchee" being my username, prevent name clash</li>
 </ul>
 </li>
-<li>Test the package<ul>
-<li>add <code>module.exports = name of function/class to export</code> to the end of the entry point <code>js</code> file</li>
-<li>run <code>npm link</code> in the command line, so if I install a test, it will be installed from this folder location</li>
-<li><code>cd</code> out of the folder and run <code>npm link name-of-package</code>, the package should show up in the <code>node_modules</code> folder.</li>
-<li>test it out as normal</li>
-</ul>
-</li>
+<li>add <code>exports.name-of-module = class {}</code> to the main part of the entry point <code>js</code> file</li>
 <li>Publishing<ul>
 <li><code>cd</code> into the <code>package</code> folder</li>
 <li>run <code>npm login</code> to login to npm account</li>
@@ -2069,6 +2082,13 @@
 </ul>
 </li>
 <li>If you need to publish an update to the package, make sure to update the <code>version</code> key in the <code>package.json</code> file </li>
+</ol>
+<hr />
+<h2 id="my-npm-modules">My npm modules</h2>
+<p><code>npm install @muachee/module-name</code></p>
+<ol>
+<li><a href="https://www.npmjs.com/package/@muahchee/dropdown-menu">@muahchee/dropdown-menu</a></li>
+<li><a href="https://www.npmjs.com/package/@muahchee/image-carousel">@muahchee/image-carousel</a></li>
 </ol>
 
 
