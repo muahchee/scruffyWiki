@@ -27,6 +27,8 @@
 
 [Todo List app](https://muahchee.github.io/todo-list/) - Omg i hated this project. I learned so much from it. But fuck this project. 
 
+[Weather App](https://muahchee.github.io/weather-app/) - Super fun project! I'm going to add this to my personal site!
+
 
 ---
 

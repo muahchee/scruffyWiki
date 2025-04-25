@@ -1,4 +1,4 @@
-CSS notes
+:material-language-css3: CSS notes
 ========================
 
 ## Grid cheatsheet
@@ -57,4 +57,30 @@ h1, h2, h3, h4, h5, h6 {
 
 ---
 
+## modal
+
+```
+/* modal */
+::backdrop{
+  background-color: var(--darkest);
+  opacity: 0.75;
+}
+
+dialog{
+
+  background-image: url(../images/backgrounds/whiteline.jpg);
+  /* centers */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 40px 25px;
+
+}
+
+dialog img {
+  max-height: 100%;
+}
+```
 
