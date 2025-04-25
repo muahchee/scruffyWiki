@@ -1198,6 +1198,8 @@
       
         
       
+        
+      
     
     
     
@@ -1316,6 +1318,15 @@
   <a href="#css-reset" class="md-nav__link">
     <span class="md-ellipsis">
       CSS Reset
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modal" class="md-nav__link">
+    <span class="md-ellipsis">
+      modal
     </span>
   </a>
   
@@ -1474,6 +1485,28 @@
   
   <span class="md-ellipsis">
     Object Oriented Programming
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recursion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    recursion
     
   </span>
   
@@ -2049,6 +2082,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#modal" class="md-nav__link">
+    <span class="md-ellipsis">
+      modal
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2065,7 +2107,7 @@
 
 
 
-<h1 id="css-notes">CSS notes</h1>
+<h1 id="css-notes"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m5 3-.65 3.34h13.59L17.5 8.5H3.92l-.66 3.33h13.59l-.76 3.81-5.48 1.81-4.75-1.81.33-1.64H2.85l-.79 4 7.85 3 9.05-3 1.2-6.03.24-1.21L21.94 3z"/></svg></span> CSS notes</h1>
 <h2 id="grid-cheatsheet">Grid cheatsheet</h2>
 <p><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">from CSS Tricks</a></p>
 <p><img alt="css-grid-poster" src="../../../media/css-grid-poster.png" /></p>
@@ -2112,6 +2154,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 </code></pre>
 <hr />
+<h2 id="modal">modal</h2>
+<pre><code>/* modal */
+::backdrop{
+  background-color: var(--darkest);
+  opacity: 0.75;
+}
+
+dialog{
+
+  background-image: url(../images/backgrounds/whiteline.jpg);
+  /* centers */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 40px 25px;
+
+}
+
+dialog img {
+  max-height: 100%;
+}
+</code></pre>
 
 
 
