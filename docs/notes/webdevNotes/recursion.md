@@ -57,6 +57,52 @@ function fibsRec(n) {
     return arr
 }
 ```
+## Recursive forEach
+
+useful for nested arrays
+
+```
+  function forEachRecur(callback, arr) {
+    if (arr.length === 0) {
+      return;
+    }
+
+    const first = arr.shift();
+
+    if (Array.isArray(first)) {
+      forEachRecur(callback, first);
+    } else {
+      callback(first);
+    }
+
+    return forEachRecur(callback, arr);
+  }
+```
+``````
+## Enqueue (level order traversal)
+
+```
+  function enqueue(root, level, queue) {
+    if (root === null) {
+      return;
+    }
+
+    if (queue.length <= level) {
+      queue.push([]);
+    }
+
+    queue[level].push(root);
+
+    enqueue(root.left, level + 1, queue);
+    enqueue(root.right, level + 1, queue);
+  }
+```
+
+Set up a queue array first, then pass is in as an argument.
+`let queue = []`
+Queue will be a nested array. Each outer index is a level.
+
+``````
 
 ## Tips
 
