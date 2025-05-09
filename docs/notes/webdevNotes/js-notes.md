@@ -274,5 +274,12 @@ Use `// FIXME:` to annotate problems.
 Use `// TODO:` to annotate solutions to problems.
 
 
+## array of random numbers
+
+100 random numbers
+
+`const intialArr = [...Array(100)].map(_=>Math.ceil(Math.random()*100));`
+
+
 
 
