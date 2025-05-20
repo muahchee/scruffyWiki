@@ -1200,6 +1200,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -1263,6 +1267,28 @@
   
   <span class="md-ellipsis">
     CSS notes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-structures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Structures
     
   </span>
   
@@ -1500,6 +1526,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#recursive-foreach" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursive forEach
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#tips" class="md-nav__link">
     <span class="md-ellipsis">
       Tips
@@ -1529,6 +1564,28 @@
   
   <span class="md-ellipsis">
     sortableJS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Testing
     
   </span>
   
@@ -2083,6 +2140,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#recursive-foreach" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursive forEach
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#tips" class="md-nav__link">
     <span class="md-ellipsis">
       Tips
@@ -2159,6 +2225,48 @@
 
     return arr
 }
+</code></pre>
+<h2 id="recursive-foreach">Recursive forEach</h2>
+<p>useful for nested arrays</p>
+<pre><code>  function forEachRecur(callback, arr) {
+    if (arr.length === 0) {
+      return;
+    }
+
+    const first = arr.shift();
+
+    if (Array.isArray(first)) {
+      forEachRecur(callback, first);
+    } else {
+      callback(first);
+    }
+
+    return forEachRecur(callback, arr);
+  }
+</code></pre>
+<pre><code>## Enqueue (level order traversal)
+
+```
+  function enqueue(root, level, queue) {
+    if (root === null) {
+      return;
+    }
+
+    if (queue.length &lt;= level) {
+      queue.push([]);
+    }
+
+    queue[level].push(root);
+
+    enqueue(root.left, level + 1, queue);
+    enqueue(root.right, level + 1, queue);
+  }
+```
+
+Set up a queue array first, then pass is in as an argument.
+`let queue = []`
+Queue will be a nested array. Each outer index is a level.
+
 </code></pre>
 <h2 id="tips">Tips</h2>
 <ul>

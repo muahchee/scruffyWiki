@@ -1200,6 +1200,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -1263,6 +1267,28 @@
   
   <span class="md-ellipsis">
     CSS notes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-structures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Structures
     
   </span>
   
@@ -1371,6 +1397,24 @@
   <a href="#deploy-webpack-project-to-github-pages" class="md-nav__link">
     <span class="md-ellipsis">
       Deploy webpack project to GitHub pages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reset-and-revert" class="md-nav__link">
+    <span class="md-ellipsis">
+      reset and revert
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relative-traversal" class="md-nav__link">
+    <span class="md-ellipsis">
+      relative traversal
     </span>
   </a>
   
@@ -1529,6 +1573,28 @@
   
   <span class="md-ellipsis">
     sortableJS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Testing
     
   </span>
   
@@ -2091,6 +2157,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#reset-and-revert" class="md-nav__link">
+    <span class="md-ellipsis">
+      reset and revert
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relative-traversal" class="md-nav__link">
+    <span class="md-ellipsis">
+      relative traversal
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2144,6 +2228,17 @@ git subtree push --prefix dist origin gh-pages
 git checkout main
 </code></pre>
 <p>13/03/25 - I had a problem where deploying a second time did not update gh-pages. It worked when I unpublished the site and did the above steps again.</p>
+<hr />
+<h2 id="reset-and-revert">reset and revert</h2>
+<p><code>reset</code> is for local repos. It removes the latest commit completely and moves the head to parent.
+syntax - <code>git reset HEAD^</code> (reverse latest commit)</p>
+<p><code>revert</code>is for public repos. It makes a new commit that reverses the changes made in latest commit. 
+syntax - <code>git revert HEAD</code></p>
+<hr />
+<h2 id="relative-traversal">relative traversal</h2>
+<p><code>~number</code> to specify how many steps up</p>
+<p><code>^</code> to go up a level
+<code>^2</code> specifies the second parent (from the left)</p>
 
 
 
