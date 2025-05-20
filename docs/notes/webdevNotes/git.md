@@ -53,5 +53,24 @@ git checkout main
 
 13/03/25 - I had a problem where deploying a second time did not update gh-pages. It worked when I unpublished the site and did the above steps again.
 
+---
+
+## reset and revert
+
+`reset` is for local repos. It removes the latest commit completely and moves the head to parent.
+syntax - `git reset HEAD^` (reverse latest commit)
+
+`revert`is for public repos. It makes a new commit that reverses the changes made in latest commit. 
+syntax - `git revert HEAD`
+
+---
+
+## relative traversal
+
+`~number` to specify how many steps up
+
+`^` to go up a level
+`^2` specifies the second parent (from the left)
+
 
 
