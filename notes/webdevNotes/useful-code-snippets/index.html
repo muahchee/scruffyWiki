@@ -1613,6 +1613,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#toggle-class-in-element-on-click" class="md-nav__link">
+    <span class="md-ellipsis">
+      Toggle class in element on click
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#play-sound-effects-in-succession-without-waiting-for-each-to-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      Play sound effects in succession without waiting for each to end
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2121,6 +2139,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#toggle-class-in-element-on-click" class="md-nav__link">
+    <span class="md-ellipsis">
+      Toggle class in element on click
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#play-sound-effects-in-succession-without-waiting-for-each-to-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      Play sound effects in succession without waiting for each to end
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2154,6 +2190,22 @@ console.log(arr) //[-3, 1, 14, 21]
 
 </code></pre>
 <p>--</p>
+<h2 id="toggle-class-in-element-on-click">Toggle class in element on click</h2>
+<pre><code>btn.addEventListener(&quot;click&quot;, (e) =&gt; {
+    if (e.target === e.currentTarget) {
+      btn.classList.toggle(&quot;clicked&quot;)
+    }
+  })
+</code></pre>
+<hr />
+<h2 id="play-sound-effects-in-succession-without-waiting-for-each-to-end">Play sound effects in succession without waiting for each to end</h2>
+<pre><code>if (selectAudio.paused) {
+    selectAudio.play();
+  } else {
+    //so audio can play without waiting for it to reach the end
+    selectAudio.currentTime = 0;
+}
+</code></pre>
 
 
 
