@@ -1,6 +1,8 @@
 :material-language-javascript: Javascript notes
 ========================
 
+---
+
 ## Creating unique values with Symbol()
 
 [MDN page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)

@@ -25,3 +25,26 @@ console.log(arr) //[-3, 1, 14, 21]
 ```
 
 --
+
+## Toggle class in element on click
+
+```
+btn.addEventListener("click", (e) => {
+    if (e.target === e.currentTarget) {
+      btn.classList.toggle("clicked")
+    }
+  })
+```
+
+---
+
+## Play sound effects in succession without waiting for each to end
+
+```
+if (selectAudio.paused) {
+    selectAudio.play();
+  } else {
+    //so audio can play without waiting for it to reach the end
+    selectAudio.currentTime = 0;
+}
+```
