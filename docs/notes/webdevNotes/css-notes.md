@@ -1,6 +1,14 @@
 :material-language-css3: CSS notes
 ========================
 
+## 3d Transform
+
+[intro to css 3d transforms](https://3dtransforms.desandro.com/)
+
+for cubes and boxes, translateZ value is how much the face moves away from the center axis
+
+---
+
 ## Grid cheatsheet
 
 [from CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
