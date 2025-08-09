@@ -73,4 +73,11 @@ syntax - `git revert HEAD`
 `^2` specifies the second parent (from the left)
 
 
+---
+
+## Adding secrets
+
+When adding private ssh key, make sure to copy the entire file. Including the "start" and "end" lines
+
+
 
