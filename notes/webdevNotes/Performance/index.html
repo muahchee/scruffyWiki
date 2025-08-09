@@ -2252,13 +2252,14 @@
 <li>use <a href="https://www.w3schools.com/css/css_image_sprites.asp">image sprites</a>. <ul>
 <li>If you're using a bunch of small icons, put them all in on sheet. When specifying it as a background url, also specify background-position</li>
 <li>remember to specify explicit width and height</li>
+<li>when setting the <code>background-position</code>, to go from left to right, you need to make the width a negative value</li>
 </ul>
 </li>
 </ul>
 <pre><code> span {
     width: 52px;
     height: 52px
-    background: url(../../fe7/map-sprites.png) 310px 62px;
+    background: url(../../fe7/map-sprites.png) -310px 62px;
   }
 </code></pre>
 
