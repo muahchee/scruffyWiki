@@ -29,11 +29,12 @@ Split into four parts
 - use [image sprites](https://www.w3schools.com/css/css_image_sprites.asp). 
     - If you're using a bunch of small icons, put them all in on sheet. When specifying it as a background url, also specify background-position
     - remember to specify explicit width and height
+    - when setting the `background-position`, to go from left to right, you need to make the width a negative value
 ```
  span {
     width: 52px;
     height: 52px
-    background: url(../../fe7/map-sprites.png) 310px 62px;
+    background: url(../../fe7/map-sprites.png) -310px 62px;
   }
 ```    
 
