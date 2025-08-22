@@ -23,6 +23,9 @@ nav:
   - Ideas/Concepts:
     - notes/ideas/
 
+  - Bookmarks:
+    - notes/bookmarks/
+
 
 extra_css:
   - stylesheets/extra.css
