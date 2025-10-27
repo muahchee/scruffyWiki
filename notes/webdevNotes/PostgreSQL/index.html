@@ -1218,6 +1218,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -1246,6 +1252,28 @@
             Webdev Notes
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Flask%28python%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Flask (python)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1380,6 +1408,33 @@
   <a href="#pg-format" class="md-nav__link">
     <span class="md-ellipsis">
       pg-format
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pg_dump" class="md-nav__link">
+    <span class="md-ellipsis">
+      pg_dump
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pg_ctl" class="md-nav__link">
+    <span class="md-ellipsis">
+      pg_ctl
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uberspace-postgresql" class="md-nav__link">
+    <span class="md-ellipsis">
+      uberspace postgresql
     </span>
   </a>
   
@@ -1802,6 +1857,50 @@
   
   <span class="md-ellipsis">
     Using MkDocs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vi/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    vi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vps-stuff/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VPS stuff
     
   </span>
   
@@ -2258,6 +2357,8 @@
       
         
       
+        
+      
     
     
     
@@ -2286,6 +2387,28 @@
             Bookmarks
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bookmarks/Books%20I%20Enjoy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Books I Enjoy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -2382,6 +2505,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#pg_dump" class="md-nav__link">
+    <span class="md-ellipsis">
+      pg_dump
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pg_ctl" class="md-nav__link">
+    <span class="md-ellipsis">
+      pg_ctl
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uberspace-postgresql" class="md-nav__link">
+    <span class="md-ellipsis">
+      uberspace postgresql
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2416,6 +2566,21 @@ VALUES
 <pre><code>var sql = format('SELECT * FROM %I WHERE my_col = %L %s', 'my_table', 34, 'LIMIT 10');
 console.log(sql); // SELECT * FROM my_table WHERE my_col = '34' LIMIT 10
 </code></pre>
+<h2 id="pg_dump">pg_dump</h2>
+<p><a href="https://www.postgresql.org/docs/current/backup-dump.html">https://www.postgresql.org/docs/current/backup-dump.html</a></p>
+<p>can be used to create db backups</p>
+<p><code>pg_dump dbname &gt; dumpfile</code> - creates an sql file to recreate database</p>
+<p><code>psql -X dbname &lt; dumpfile</code> - restore db (remember to create the db first)</p>
+<p>to dump a whole db cluster</p>
+<p><code>pg_dumpall &gt; dumpfile'</code></p>
+<p><code>psql -X -f dumpfile postgres</code></p>
+<h2 id="pg_ctl">pg_ctl</h2>
+<p><a href="https://lab.uberspace.de/guide_postgresql/">https://lab.uberspace.de/guide_postgresql/</a></p>
+<p>do stuff with server</p>
+<p>For Uberspace, dont start the server here. Start the server through <code>supervisorctl start postgresql</code></p>
+<p>Supervisorctl will automatically restart the server if it crashes.</p>
+<h2 id="uberspace-postgresql">uberspace postgresql</h2>
+<p>updating db via internal script works fine. Cant get external connection string to work.</p>
 
 
 
