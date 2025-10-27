@@ -15,6 +15,14 @@ https://frontendmasters.com/blog/node-js-debugging-in-chrome-devtools/
 
 ## Express 
 
+### npm  install checklist
+- express
+- express-validator
+- pg
+- pg-format
+- dotenv
+- ejs
+
 ### __dirname
 
 `__dirname` is only for commonJS
