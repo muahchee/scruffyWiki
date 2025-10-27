@@ -12,7 +12,7 @@ This list will be dynamic and in no particular order. It will represent my curre
 - First You Write a Sentence - by Joe Moran
 - If You Should Fail - Joe Moran
 - An Admirable Point - Florence Hazrat
- -Adult Children of Emotionally Immature Parents - by Lindsay C. Gibson
+- Adult Children of Emotionally Immature Parents - by Lindsay C. Gibson
 - Practical Object-Oriented Design in Ruby - by Sandi Metz
 - Learn to Write Badly - by Michael Billig
 - Hypermedia Systems - by Carson Gross, Adam Stepinski, Deniz Akşimşek
