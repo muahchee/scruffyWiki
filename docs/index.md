@@ -4,6 +4,8 @@
 
 I plant my half-baked ideas here and let them grow. 
 
+This is basically a notebook. If you're not me, please don't take anything here seriously, or worse, as a learning resource.
+
 :fontawesome-regular-moon: :fontawesome-solid-carrot: :material-flower-tulip-outline: :material-lead-pencil:
 
 
