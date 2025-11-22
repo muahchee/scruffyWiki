@@ -61,6 +61,24 @@ RewriteRule . /index.html [L]
 
 ------
 
+## routing for nginx
+
+add to Vhost (in cloudpanel)
+
+```
+  location ~ "^/index\.html$" {
+    break;
+  }
+  location / {
+    try_files $uri $uri/ /index.html$is_args$args;
+  }
+
+```
+
+[convert htaccess to nginx config] (https://www.getpagespeed.com/apache-to-nginx)
+
+------
+
 
 ## Effects
 

@@ -57,3 +57,66 @@ Supervisorctl will automatically restart the server if it crashes.
 
 updating db via internal script works fine. Cant get external connection string to work.
 
+## docker
+
+oh my god this was such a headache
+
+[https://www.youtube.com/watch?v=aHbE3pTyG-Q](https://www.youtube.com/watch?v=aHbE3pTyG-Q)
+
+### commands to use postgres docker container
+
+check images: docker images
+
+check containers: docker ps
+
+exit docker cont: ctrl-p ctrl-q
+ 
+create container: docker run --name [name of container] -e POSTGRES_PASSWORD=[your password] -d -p 5432:5432 postgres
+
+to run a shell: docker exec -it [name of container] sh
+
+notes:
+- `-p` exposes the port 5432
+- without a password postgres wont work
+
+## cron job backups
+
+to add a cron job - `crontab -e`
+
+[cron job ref](https://tecadmin.net/crontab-in-linux-with-20-examples-of-cron-schedule/)
+
+adding a cronjob weekly - `@weekly /scripts/backup.sh`
+
+```
+// /scripts/backup.sh
+
+pg_dump db_name > ~/pgbackup/`date '+%Y%m%d-%H%M'`-database.sql
+
+```
+
+`date` is a command that outputs a date
+
+this outputs a file name like : `20251122-0012-database.sql`
+
+
+## restore dump
+
+1. check the sql file and remember to have the same user (username, pw) at the place you want to restore.
+
+`CREATE USER username WITH PASSWORD 'password'`
+
+2. also create a database for the new user.
+
+`CREATE DATABASE username OWNER username`
+
+3. then, create a target database for the dump with the previously created user as the owner
+
+`CREATE DATABASE dumpdb OWNER username`
+
+4. exit psql and restore the dump
+
+`psql dumpdb < database_dump_file.sql`
+
+
+
+

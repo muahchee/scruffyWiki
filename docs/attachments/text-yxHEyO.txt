@@ -1,0 +1,19 @@
+commands to use postgres docker container
+
+check images: docker images
+
+check containers: docker ps
+
+exit docker cont: ctrl-p ctrl-q
+
+# -p exposes the port 5432
+# without a password postgres wont work
+create: docker run --name postgres-0 -e POSTGRES_PASSWORD=fA4GLykQABiWXhKhXUCo -d -p 5432:5432 postgres
+
+to run: docker exec -it postgres-0 sh
+
+# postgres-0 is the name of the container
+
+microblog connection
+username: muahchee
+pw: 4Ax8AcOU8UYdklpjTpkPnKk

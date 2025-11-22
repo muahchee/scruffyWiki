@@ -34,4 +34,25 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 ```
+
+### multer
+
+req.file object 
+```
+{
+  fieldname: 'uploaded_file',
+  originalname: 'p04-icon-teru_teru_bozu.gif',
+  encoding: '7bit',
+  mimetype: 'image/gif',
+  destination: './public/uploads/',
+  filename: '9b6d8cb5d83c270624d13b8c8d1d11f2',
+  path: 'public/uploads/9b6d8cb5d83c270624d13b8c8d1d11f2',
+  size: 171
+}
+```
+
+## deployment on cloudpanel
+
+[https://www.cloudpanel.io/docs/v2/nodejs/deployment/pm2/](https://www.cloudpanel.io/docs/v2/nodejs/deployment/pm2/)
