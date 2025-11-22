@@ -1440,6 +1440,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      docker
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="docker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#commands-to-use-postgres-docker-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      commands to use postgres docker container
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cron-job-backups" class="md-nav__link">
+    <span class="md-ellipsis">
+      cron job backups
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restore-dump" class="md-nav__link">
+    <span class="md-ellipsis">
+      restore dump
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2532,6 +2574,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      docker
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="docker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#commands-to-use-postgres-docker-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      commands to use postgres docker container
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cron-job-backups" class="md-nav__link">
+    <span class="md-ellipsis">
+      cron job backups
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restore-dump" class="md-nav__link">
+    <span class="md-ellipsis">
+      restore dump
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2581,6 +2665,46 @@ console.log(sql); // SELECT * FROM my_table WHERE my_col = '34' LIMIT 10
 <p>Supervisorctl will automatically restart the server if it crashes.</p>
 <h2 id="uberspace-postgresql">uberspace postgresql</h2>
 <p>updating db via internal script works fine. Cant get external connection string to work.</p>
+<h2 id="docker">docker</h2>
+<p>oh my god this was such a headache</p>
+<p><a href="https://www.youtube.com/watch?v=aHbE3pTyG-Q">https://www.youtube.com/watch?v=aHbE3pTyG-Q</a></p>
+<h3 id="commands-to-use-postgres-docker-container">commands to use postgres docker container</h3>
+<p>check images: docker images</p>
+<p>check containers: docker ps</p>
+<p>exit docker cont: ctrl-p ctrl-q</p>
+<p>create container: docker run --name [name of container] -e POSTGRES_PASSWORD=[your password] -d -p 5432:5432 postgres</p>
+<p>to run a shell: docker exec -it [name of container] sh</p>
+<p>notes:
+- <code>-p</code> exposes the port 5432
+- without a password postgres wont work</p>
+<h2 id="cron-job-backups">cron job backups</h2>
+<p>to add a cron job - <code>crontab -e</code></p>
+<p><a href="https://tecadmin.net/crontab-in-linux-with-20-examples-of-cron-schedule/">cron job ref</a></p>
+<p>adding a cronjob weekly - <code>@weekly /scripts/backup.sh</code></p>
+<pre><code>// /scripts/backup.sh
+
+pg_dump db_name &gt; ~/pgbackup/`date '+%Y%m%d-%H%M'`-database.sql
+
+</code></pre>
+<p><code>date</code> is a command that outputs a date</p>
+<p>this outputs a file name like : <code>20251122-0012-database.sql</code></p>
+<h2 id="restore-dump">restore dump</h2>
+<ol>
+<li>check the sql file and remember to have the same user (username, pw) at the place you want to restore.</li>
+</ol>
+<p><code>CREATE USER username WITH PASSWORD 'password'</code></p>
+<ol>
+<li>also create a database for the new user.</li>
+</ol>
+<p><code>CREATE DATABASE username OWNER username</code></p>
+<ol>
+<li>then, create a target database for the dump with the previously created user as the owner</li>
+</ol>
+<p><code>CREATE DATABASE dumpdb OWNER username</code></p>
+<ol>
+<li>exit psql and restore the dump</li>
+</ol>
+<p><code>psql dumpdb &lt; database_dump_file.sql</code></p>
 
 
 

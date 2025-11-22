@@ -1858,14 +1858,32 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#problem-1" class="md-nav__link">
+  <a href="#get-ip-address" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 1
+      Get ip address
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Problem 1">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-ssh-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      setting up ssh keys
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="setting up ssh keys">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problem
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#solution" class="md-nav__link">
@@ -1878,6 +1896,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syncing-folders-between-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      syncing folders between users
+    </span>
+  </a>
   
 </li>
       
@@ -2467,14 +2494,32 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#problem-1" class="md-nav__link">
+  <a href="#get-ip-address" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 1
+      Get ip address
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Problem 1">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-ssh-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      setting up ssh keys
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="setting up ssh keys">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problem
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#solution" class="md-nav__link">
@@ -2487,6 +2532,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syncing-folders-between-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      syncing folders between users
+    </span>
+  </a>
   
 </li>
       
@@ -2507,12 +2561,14 @@
 
 
 <h1 id="vps-stuff">VPS stuff</h1>
-<p>setting up ssh keys</p>
+<h2 id="get-ip-address">Get ip address</h2>
+<p><code>hostname -I</code></p>
+<h2 id="setting-up-ssh-keys">setting up ssh keys</h2>
 <p><a href="https://linuxize.com/post/how-to-set-up-ssh-keys-on-debian-10/">https://linuxize.com/post/how-to-set-up-ssh-keys-on-debian-10/</a></p>
 <ul>
 <li>so i don't need to use a password</li>
 </ul>
-<h2 id="problem-1">Problem 1</h2>
+<h3 id="problem">Problem</h3>
 <p>Not needing a password is great and all, but after I did this, my SFTP setup in FileZilla stopped working. It connected to the cloudpanel site with the site user and a password.</p>
 <p>The error message is <code>No supported authentication methods available (server sent: publickey)</code></p>
 <h3 id="solution">solution:</h3>
@@ -2524,6 +2580,12 @@
 <li>in FileZilla, change the Logon Type in the Site Manager Settings to "Key File". Link your private key file in the Key File field. You might have to change the displayed file types from "PPK files" to "All Files" if nothing shows up.</li>
 <li>it should work now</li>
 </ul>
+<h2 id="syncing-folders-between-users">syncing folders between users</h2>
+<p><a href="https://unix.stackexchange.com/questions/203846/how-to-sync-two-folders-with-command-line-tools">source</a></p>
+<p>you need to do this from root</p>
+<p><code>rsync -avu --delete "/home/user/A/" "/home/user/B"</code></p>
+<p>A is the source</p>
+<p>you can set up a <a href="../PostgreSQL/#cron%20job%20backups">cron job</a> to automate this</p>
 
 
 
